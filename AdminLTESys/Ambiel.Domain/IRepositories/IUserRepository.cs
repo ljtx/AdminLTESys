@@ -14,5 +14,7 @@ namespace Ambiel.Domain.IRepositories
         User CheckUser(string userName, string password);
 
         User GetWithRoles(string id);
+
+        bool IsUserNameExists(string userName);
     }
 }

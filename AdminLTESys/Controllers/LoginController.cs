@@ -1,6 +1,7 @@
 ﻿using AdminLTESys.Models;
 using Ambiel.AppService.UserApp;
 using Ambiel.Utility.Convert;
+using Ambiel.Utility.StringExtension;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdminLTESys.Controllers
@@ -24,7 +25,7 @@ namespace AdminLTESys.Controllers
             if (ModelState.IsValid)
             {
                 //检查用户信息
-                var user = _userAppService.CheckUser(model.UserName, model.Password);
+                var user = _userAppService.CheckUser(model.UserName, model.Password.ToMD5String("ambiel1"));
                 if (user != null)
                 {
                     //记录Session

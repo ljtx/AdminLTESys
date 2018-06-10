@@ -59,7 +59,7 @@ namespace Ambiel.AppService.UserApp.Dtos
         /// <summary>
         /// 部门ID
         /// </summary>
-        public Guid DepartmentId { get; set; }
+        public string DepartmentId { get; set; }
 
         /// <summary>
         /// 是否已删除

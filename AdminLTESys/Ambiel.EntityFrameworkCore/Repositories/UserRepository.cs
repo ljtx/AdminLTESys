@@ -35,5 +35,15 @@ namespace Ambiel.EntityFrameworkCore.Repositories
             }
             return user;
         }
+
+        public bool IsUserNameExists(string userName)
+        {
+            var user = _dbContext.Set<User>().FirstOrDefault(it => it.UserName == userName);
+            if (user != null)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

@@ -31,5 +31,7 @@ namespace Ambiel.AppService.UserApp
         /// <param name="id">Id</param>
         /// <returns></returns>
         UserDto Get(string id);
+
+        bool IsUserNameExists(string userName);
     }
 }

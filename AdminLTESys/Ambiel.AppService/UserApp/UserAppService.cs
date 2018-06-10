@@ -67,8 +67,16 @@ namespace Ambiel.AppService.UserApp
         /// <returns></returns>
         public UserDto Get(string id)
         {
-            //return Mapper.Map<UserDto>(_repository.GetWithRoles(id));
-            return  new  UserDto();
+            return Mapper.Map<UserDto>(_repository.GetWithRoles(id));
+        }
+        /// <summary>
+        /// 判断用户名是否存在
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
+        public bool IsUserNameExists(string userName)
+        {
+            return _repository.IsUserNameExists(userName);
         }
     }
 }
