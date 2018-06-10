@@ -1,0 +1,14 @@
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.deps.json
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.pdb
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Ambiel.Domain.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Ambiel.Domain.pdb
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.AssemblyInfo.cs
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.csproj.CopyComplete
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Ambiel.EntityFrameworkCore.pdb
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml

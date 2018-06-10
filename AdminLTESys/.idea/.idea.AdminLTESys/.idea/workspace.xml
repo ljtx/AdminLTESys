@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63d2fefd-81d5-4104-8042-ce25f3857b0b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/Register/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+              <folding>
+                <marker date="1528624083240" expanded="true" signature="0:21" ph="@..." />
+                <marker date="1528624083240" expanded="true" signature="59:3085" ph="&lt;html.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="66:607" ph="&lt;head.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="608:3077" ph="&lt;body.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="653:2630" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="682:770" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="774:2608" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="797:2575" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="956:2483" ph="&lt;form.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="1049:1334" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="1343:1623" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="1632:1920" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="1929:2226" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="2235:2469" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="2298:2429" ph="&lt;div.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="2869:3069" ph="&lt;script.../&gt;" />
+                <marker date="1528624083240" expanded="true" signature="2894:3058" ph="{...}" />
+                <marker date="1528624083240" expanded="true" signature="2918:3053" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/LoginModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="44" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <marker date="1528379784012" expanded="true" signature="74:384" ph="{...}" />
+                <marker date="1528379784012" expanded="true" signature="104:382" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/RegisterModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding>
+                <marker date="1528623998864" expanded="true" signature="74:654" ph="{...}" />
+                <marker date="1528623998864" expanded="true" signature="107:652" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Login/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="34" column="91" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="91" />
+              <folding>
+                <marker date="1528617622326" expanded="true" signature="0:23" ph="@..." />
+                <marker date="1528617622326" expanded="true" signature="58:4024" ph="&lt;html.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="65:654" ph="&lt;head.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="544:646" ph="&lt;style.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="565:633" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="655:4016" ph="&lt;body.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="724:2497" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="757:867" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="902:2460" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="1125:2449" ph="&lt;form.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="1222:1537" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="1550:1868" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="1881:2433" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="1915:2179" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="1958:2156" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="2012:2129" ph="&lt;label.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="2227:2383" ph="&lt;div.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="2833:4008" ph="&lt;script.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="2859:3615" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="2887:3040" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="3670:3997" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="4025:6956" ph="&lt;script.../&gt;" />
+                <marker date="1528617622326" expanded="true" signature="4168:4389" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="4412:4674" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="4616:4671" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="4772:4852" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="4886:4929" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="4931:4978" ph="/* 添加粒子 ... */" />
+                <marker date="1528617622326" expanded="true" signature="5197:5282" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="5340:5358" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="5397:6946" ph="{...}" />
+                <marker date="1528617622326" expanded="true" signature="5554:6924" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cop</find>
+      <find>fonou</find>
+      <find>user-panel</find>
+      <find>www</find>
+      <find>string</find>
+      <find>guid</find>
+      <find>portlet-body</find>
+      <find>RenderSection</find>
+      <find>param</find>
+      <find>权限管理系统</find>
+      <find>btnAdd</find>
+      <find>tableBody</find>
+      <find>checkAll</find>
+      <find>btnLoadRoot</find>
+      <find>loadTables</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/UserApp/IUserAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/UserApp/Dtos/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/UserApp/Dtos/UserRoleDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/UserRole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/DesignTimeDbContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/Dtos/RoleDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Utility/StringExtension/CompressHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/IRoleAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/Department.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Utility/StringExtension/MD5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/Dtos/RoleMenuDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/RoleAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Utility/Thread/ThreadWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Utility/Convert/ByteConvertHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A15DA1E2-BC8E-41CB-AB31-85D47B7C2D1C/0f/71b93e06/Controller.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IDepartmentRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IMenuRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IRoleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TreeModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/RoleMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/RoleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/AmbielDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CAAEC387-1ED9-4CD7-A34E-8AFED49FA62F/39/d283cb6d/ControllerActionInvoker.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/RegisterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Register/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/RegisterModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/SeedData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Menu/_Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Menu/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/MenuAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D85C908-D676-49C8-A469-C19A74522F33/4c/ce25e129/Dictionary`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A71C8DB1-FBFE-4964-B5B9-AF5B281E676F/b8/0fb5aa0a/ApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/IMenuAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/5d/240f6ff3/ConfigureBuilder.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/Dtos/MenuDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/a4/67d6007c/ConfigureServicesBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/fd/a449a2a4/StartupLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D85C908-D676-49C8-A469-C19A74522F33/d0/50ac4b34/String.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/AmbielMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Login/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/f3/0e813175/ConventionBasedStartup.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Controllers/AmbielBaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/LoginModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/aa/35df2d11/WebHost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/AmbielRepositoryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.AppService/UserApp/UserAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/DepartmentRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/MenuRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/DepartmentRepository.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/MenuRepository.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/UserApp/Dtos/UserRoleDto.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/UserApp/Dtos/UserDto.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/UserApp/IUserAppService.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/UserApp/UserAppService.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/AmbielDbContext.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/SeedData.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/DesignTimeDbContextFactory.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/User.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/RoleMenu.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/Role.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/Department.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/UserRole.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/Class1.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/Thread/ThreadWorker.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/StringExtension/MD5.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/StringExtension/CompressHelper.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/Convert/ByteConvertHelper.cs" />
+        <option value="$PROJECT_DIR$/Models/LoginModel.cs" />
+        <option value="$PROJECT_DIR$/Controllers/LoginController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/MenuApp/Dtos/MenuDto.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/AmbielMapper.cs" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Menu/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Menu/_Edit.cshtml" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/RoleApp/Dtos/RoleDto.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/RoleApp/Dtos/RoleMenuDto.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/IRepositories/IRoleRepository.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/RoleApp/IRoleAppService.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/RoleApp/RoleAppService.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/MenuApp/MenuAppService.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/IRepositories/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.AppService/MenuApp/IMenuAppService.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/UserRepository.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A15DA1E2-BC8E-41CB-AB31-85D47B7C2D1C/0f/71b93e06/Controller.cs" />
+        <option value="$PROJECT_DIR$/Controllers/AmbielBaseController.cs" />
+        <option value="$PROJECT_DIR$/Models/TreeModel.cs" />
+        <option value="$PROJECT_DIR$/Controllers/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Views/Login/lizitexiao.js" />
+        <option value="$PROJECT_DIR$/wwwroot/js/lizitexiao.js" />
+        <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/RoleRepository.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/Menu.cs" />
+        <option value="$PROJECT_DIR$/Views/Menu/Index.js" />
+        <option value="$PROJECT_DIR$/Controllers/RegisterController.cs" />
+        <option value="$PROJECT_DIR$/Models/RegisterModel.cs" />
+        <option value="$PROJECT_DIR$/Views/Register/Index.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="681" />
+    <option name="y" value="87" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Login" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Register" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/AdminLTESys.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AdminLTESys.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63d2fefd-81d5-4104-8042-ce25f3857b0b" name="Default" comment="" />
+      <created>1527339011651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527339011651</updated>
+      <workItem from="1527339014860" duration="2067000" />
+      <workItem from="1527343897003" duration="642000" />
+      <workItem from="1527400651735" duration="13169000" />
+      <workItem from="1527511832911" duration="4276000" />
+      <workItem from="1527516472933" duration="1306000" />
+      <workItem from="1527517964965" duration="642000" />
+      <workItem from="1527519393362" duration="1898000" />
+      <workItem from="1527596680464" duration="2748000" />
+      <workItem from="1527681441929" duration="7128000" />
+      <workItem from="1528376146982" duration="4265000" />
+      <workItem from="1528467232873" duration="2585000" />
+      <workItem from="1528555281683" duration="1758000" />
+      <workItem from="1528612895713" duration="11172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53656000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32920355" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32920355" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" weight="0.32920355" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.35929203" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.283751" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32920355" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Views/Menu/Index.js</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ambiel.Utility/StringExtension/MD5.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Utility/Thread/ThreadWorker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/AmbielDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/DesignTimeDbContextFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/5d/240f6ff3/ConfigureBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D71E9EF-FC46-42D1-A5E6-76163099BF6B/f3/0e813175/ConventionBasedStartup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Utility/Convert/ByteConvertHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/LoginController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/DepartmentRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/Dtos/MenuDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1528555653529" expanded="true" signature="86:1062" ph="{...}" />
+            <marker date="1528555653529" expanded="true" signature="113:1060" ph="{...}" />
+            <marker date="1528555653529" expanded="true" signature="168:221" ph="/// 父级ID ... " />
+            <marker date="1528555653529" expanded="true" signature="276:327" ph="/// 序号 ... " />
+            <marker date="1528555653529" expanded="true" signature="383:436" ph="/// 菜单名称 ... " />
+            <marker date="1528555653529" expanded="true" signature="534:587" ph="/// 菜单编码 ... " />
+            <marker date="1528555653529" expanded="true" signature="638:691" ph="/// 菜单地址 ... " />
+            <marker date="1528555653529" expanded="true" signature="741:805" ph="/// 类型：0导航菜单；1操作按钮。 ... " />
+            <marker date="1528555653529" expanded="true" signature="853:906" ph="/// 菜单图标 ... " />
+            <marker date="1528555653529" expanded="true" signature="957:1010" ph="/// 菜单备注 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/AmbielMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <marker date="1528555796105" expanded="false" signature="6:122" ph="..." />
+            <marker date="1528555796105" expanded="true" signature="151:628" ph="{...}" />
+            <marker date="1528555796105" expanded="true" signature="183:626" ph="{...}" />
+            <marker date="1528555796105" expanded="true" signature="229:620" ph="{...}" />
+            <marker date="1528555796105" expanded="true" signature="276:608" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Menu/_Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/Role.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1527597407150" expanded="false" signature="6:92" ph="..." />
+            <marker date="1527597407150" expanded="true" signature="125:503" ph="{...}" />
+            <marker date="1527597407150" expanded="true" signature="158:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/Dtos/RoleDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <marker date="1528613351141" expanded="true" signature="6:58" ph="..." />
+            <marker date="1528613351141" expanded="true" signature="100:497" ph="{...}" />
+            <marker date="1528613351141" expanded="true" signature="131:495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/Dtos/RoleMenuDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <marker date="1528613483775" expanded="true" signature="79:295" ph="{...}" />
+            <marker date="1528613483775" expanded="true" signature="110:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/IRoleAppService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <marker date="1528613788650" expanded="true" signature="6:85" ph="..." />
+            <marker date="1528613788650" expanded="true" signature="122:1744" ph="{...}" />
+            <marker date="1528613788650" expanded="true" signature="161:1742" ph="{...}" />
+            <marker date="1528613788650" expanded="true" signature="176:261" ph="/// 获取列表 ... " />
+            <marker date="1528613788650" expanded="true" signature="307:538" ph="/// 获取分页列表 ... " />
+            <marker date="1528613788650" expanded="true" signature="633:760" ph="/// 新增或修改 ... " />
+            <marker date="1528613788650" expanded="true" signature="812:914" ph="/// 根据Id集合批量删除 ... " />
+            <marker date="1528613788650" expanded="true" signature="968:1059" ph="/// 删除 ... " />
+            <marker date="1528613788650" expanded="true" signature="1101:1230" ph="/// 根据Id获取实体 ... " />
+            <marker date="1528613788650" expanded="true" signature="1272:1407" ph="/// 根据角色获取权限 ... " />
+            <marker date="1528613788650" expanded="true" signature="1475:1663" ph="/// 更新角色权限关联关系 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IRoleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1528613761290" expanded="false" signature="6:76" ph="..." />
+            <marker date="1528613761290" expanded="true" signature="115:657" ph="{...}" />
+            <marker date="1528613761290" expanded="true" signature="173:655" ph="{...}" />
+            <marker date="1528613761290" expanded="true" signature="188:323" ph="/// 根据角色获取权限 ... " />
+            <marker date="1528613761290" expanded="true" signature="391:579" ph="/// 更新角色权限关联关系 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/RoleApp/RoleAppService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <marker date="1528613821833" expanded="true" signature="6:186" ph="..." />
+            <marker date="1528613821833" expanded="true" signature="223:2846" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="274:2844" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="392:450" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="460:545" ph="/// 获取列表 ... " />
+            <marker date="1528613821833" expanded="true" signature="587:702" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="712:943" ph="/// 获取分页列表 ... " />
+            <marker date="1528613821833" expanded="true" signature="1034:1182" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="1192:1319" ph="/// 新增或修改 ... " />
+            <marker date="1528613821833" expanded="true" signature="1367:1509" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="1519:1621" ph="/// 根据Id集合批量删除 ... " />
+            <marker date="1528613821833" expanded="true" signature="1671:1750" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="1760:1851" ph="/// 删除 ... " />
+            <marker date="1528613821833" expanded="true" signature="1889:1945" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="1955:2084" ph="/// 根据Id获取实体 ... " />
+            <marker date="1528613821833" expanded="true" signature="2122:2203" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="2213:2302" ph="/// 根据角色获取权限 ... " />
+            <marker date="1528613821833" expanded="true" signature="2366:2447" ph="{...}" />
+            <marker date="1528613821833" expanded="true" signature="2457:2645" ph="/// 更新角色权限关联关系 ... " />
+            <marker date="1528613821833" expanded="true" signature="2724:2838" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <marker date="1528614164897" expanded="false" signature="6:42" ph="..." />
+            <marker date="1528614164897" expanded="true" signature="81:457" ph="{...}" />
+            <marker date="1528614164897" expanded="true" signature="139:455" ph="{...}" />
+            <marker date="1528614164897" expanded="true" signature="154:352" ph="/// 检查用户是存在 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/SeedData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1527596738145" expanded="false" signature="6:228" ph="..." />
+            <marker date="1527596738145" expanded="true" signature="266:2619" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="301:2617" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="370:2611" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="457:2601" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="602:685" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="822:968" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="1104:1313" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="1449:1687" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="1736:1965" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="2014:2244" ph="{...}" />
+            <marker date="1527596738145" expanded="true" signature="2293:2529" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A15DA1E2-BC8E-41CB-AB31-85D47B7C2D1C/0f/71b93e06/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="296" column="30" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
+          <folding>
+            <marker date="1528614851748" expanded="true" signature="0:423" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1528614851748" expanded="false" signature="431:756" ph="..." />
+            <marker date="1528614851748" expanded="true" signature="792:15493" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="990:15491" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="1123:1764" ph="/// Gets or sets &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary&quot; /&gt; used by &lt;see cref=&quot;T:M ... " />
+            <marker date="1528614851748" expanded="true" signature="1828:2260" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="1844:2072" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="2082:2254" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="2266:2456" ph="/// Gets or sets &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionary&quot; /&gt; used by &lt;see cref=&quot;T: ... " />
+            <marker date="1528614851748" expanded="true" signature="2496:3353" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="2512:3203" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="2556:3164" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="2711:2802" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="2817:3077" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="3213:3347" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="3434:3643" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="3450:3637" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="3649:3913" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewResult&quot; /&gt; object that renders a view to the response. ... " />
+            <marker date="1528614851748" expanded="true" signature="3966:4017" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="4023:4390" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewResult&quot; /&gt; object by specifying a &lt;paramref name=&quot;viewNam ... " />
+            <marker date="1528614851748" expanded="true" signature="4458:4525" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="4531:4912" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewResult&quot; /&gt; object by specifying a &lt;paramref name=&quot;model&quot;  ... " />
+            <marker date="1528614851748" expanded="true" signature="4977:5035" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="5041:5553" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewResult&quot; /&gt; object by specifying a &lt;paramref name=&quot;viewNam ... " />
+            <marker date="1528614851748" expanded="true" signature="5635:5825" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="5713:5818" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="5831:6117" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.PartialViewResult&quot; /&gt; object that renders a partial view to t ... " />
+            <marker date="1528614851748" expanded="true" signature="6184:6242" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="6248:6629" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.PartialViewResult&quot; /&gt; object by specifying a &lt;paramref name=&quot; ... " />
+            <marker date="1528614851748" expanded="true" signature="6711:6785" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="6791:7202" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.PartialViewResult&quot; /&gt; object by specifying a &lt;paramref name=&quot; ... " />
+            <marker date="1528614851748" expanded="true" signature="7281:7346" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="7352:7902" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.PartialViewResult&quot; /&gt; object by specifying a &lt;paramref name=&quot; ... " />
+            <marker date="1528614851748" expanded="true" signature="7998:8195" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="8083:8188" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="8201:8796" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewComponentResult&quot; /&gt; by specifying the name of a view comp ... " />
+            <marker date="1528614851748" expanded="true" signature="8887:8962" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="8968:9385" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewComponentResult&quot; /&gt; by specifying the &lt;see cref=&quot;T:System ... " />
+            <marker date="1528614851748" expanded="true" signature="9474:9549" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="9555:10470" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewComponentResult&quot; /&gt; by specifying the name of a view comp ... " />
+            <marker date="1528614851748" expanded="true" signature="10579:10788" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="10631:10781" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="10794:11531" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.ViewComponentResult&quot; /&gt; by specifying the &lt;see cref=&quot;T:System ... " />
+            <marker date="1528614851748" expanded="true" signature="11638:11847" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="11690:11840" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="11853:12290" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.JsonResult&quot; /&gt; object that serializes the specified &lt;paramref ... " />
+            <marker date="1528614851748" expanded="true" signature="12354:12402" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="12408:13166" ph="/// Creates a &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.JsonResult&quot; /&gt; object that serializes the specified &lt;paramref ... " />
+            <marker date="1528614851748" expanded="true" signature="13273:13448" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="13454:13588" ph="///Called before the action method is invoked. ... " />
+            <marker date="1528614851748" expanded="true" signature="13678:13690" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="13696:13828" ph="///Called after the action method is invoked. ... " />
+            <marker date="1528614851748" expanded="true" signature="13916:13928" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="13934:14548" ph="///Called before the action method is invoked. ... " />
+            <marker date="1528614851748" expanded="true" signature="14679:14989" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="15039:15077" ph="{...}" />
+            <marker date="1528614851748" expanded="true" signature="15083:15424" ph="/// Releases all resources currently used by this &lt;see cref=&quot;T:Microsoft.AspNetCore.Mvc.Controller&quot; /&gt; instance. ... " />
+            <marker date="1528614851748" expanded="true" signature="15475:15487" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TreeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <marker date="1528615396340" expanded="true" signature="28:196" ph="{...}" />
+            <marker date="1528615396340" expanded="true" signature="57:194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
+          <folding>
+            <marker date="1528556220670" expanded="true" signature="17:18946" ph="&lt;html.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="24:754" ph="&lt;head.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="755:18938" ph="&lt;body.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="813:18429" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="872:10760" ph="&lt;header.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="939:1270" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="1318:10742" ph="&lt;nav.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="1437:1598" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="1658:10723" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="1711:10700" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="1841:3948" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="1961:2193" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="2222:3918" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="2357:3795" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="2477:3705" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="2535:3602" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="2651:3556" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="2712:2989" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="3123:3350" ph="&lt;h4.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4074:5413" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4199:4428" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4457:5383" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4598:5268" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4723:5230" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4781:5122" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="4902:5076" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="5482:7765" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="5599:5826" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="5855:7735" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="5987:7544" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="6104:7506" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="6162:7401" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="6274:7355" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="6421:6641" ph="&lt;h3.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="6764:7306" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="6955:7251" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="7577:7701" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="7841:10450" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="7962:8414" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="8443:10420" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="8570:8975" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="8742:8937" ph="&lt;p.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9059:9837" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9118:9748" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9176:9327" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9368:9515" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9556:9705" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9922:10386" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="9983:10146" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="10183:10348" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="10538:10674" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="10834:13596" ph="&lt;aside.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="10940:13548" ph="&lt;section.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11037:11503" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11082:11237" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11258:11480" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11568:12102" ph="&lt;form.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11640:12078" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11788:12051" ph="&lt;span.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="11847:12019" ph="&lt;button.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="12196:13485" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="12828:13463" ph="@*...*@" />
+            <marker date="1528556220670" expanded="true" signature="13661:14435" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="13753:14173" ph="@*...*@" />
+            <marker date="1528556220670" expanded="true" signature="14220:14389" ph="&lt;section.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="14508:14825" ph="&lt;footer.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="14583:14670" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="14867:18214" ph="&lt;aside.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="14969:15287" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="15331:18197" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="15415:17124" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="15572:16102" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="15630:16076" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="15663:16046" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="15784:16013" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="16251:17049" ph="&lt;ul.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="16309:17023" ph="&lt;li.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="16342:16993" ph="&lt;a.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="16398:16745" ph="&lt;h4.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="16533:16707" ph="&lt;span.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="16778:16960" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="17395:18142" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="17472:18119" ph="&lt;form.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="17599:18045" ph="&lt;div.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="17652:17865" ph="&lt;label.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="17894:18014" ph="&lt;p.../&gt;" />
+            <marker date="1528556220670" expanded="true" signature="18258:18371" ph="&lt;!--...--&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wwwroot/js/lizitexiao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1407">
+          <caret selection-end-line="92" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <marker date="1528618160499" expanded="false" signature="6:594" ph="..." />
+            <marker date="1528618160499" expanded="true" signature="617:2931" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="644:2929" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="698:1044" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="1267:1994" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="2182:2923" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="2229:2306" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="2323:2407" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="2510:2614" ph="{...}" />
+            <marker date="1528618160499" expanded="true" signature="2701:2873" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/RoleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <marker date="1528618297476" expanded="true" signature="6:116" ph="..." />
+            <marker date="1528618297476" expanded="true" signature="167:1360" ph="{...}" />
+            <marker date="1528618297476" expanded="true" signature="252:1358" ph="{...}" />
+            <marker date="1528618297476" expanded="true" signature="333:354" ph="{...}" />
+            <marker date="1528618297476" expanded="true" signature="363:452" ph="/// 根据角色获取权限 ... " />
+            <marker date="1528618297476" expanded="true" signature="516:725" ph="{...}" />
+            <marker date="1528618297476" expanded="true" signature="735:923" ph="/// 更新角色权限关联关系 ... " />
+            <marker date="1528618297476" expanded="true" signature="999:1352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/MenuRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding>
+            <marker date="1527517238793" expanded="false" signature="6:77" ph="..." />
+            <marker date="1527517238793" expanded="true" signature="128:323" ph="{...}" />
+            <marker date="1527517238793" expanded="true" signature="213:321" ph="{...}" />
+            <marker date="1527517238793" expanded="true" signature="294:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/IMenuAppService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <marker date="1528614184049" expanded="false" signature="6:85" ph="..." />
+            <marker date="1528614184049" expanded="true" signature="122:1561" ph="{...}" />
+            <marker date="1528614184049" expanded="true" signature="161:1559" ph="{...}" />
+            <marker date="1528614184049" expanded="true" signature="176:263" ph="/// 获取功能列表 ... " />
+            <marker date="1528614184049" expanded="true" signature="309:594" ph="/// 根据父级Id获取功能列表 ... " />
+            <marker date="1528614184049" expanded="true" signature="708:837" ph="/// 新增或修改功能 ... " />
+            <marker date="1528614184049" expanded="true" signature="889:993" ph="/// 根据Id集合批量删除 ... " />
+            <marker date="1528614184049" expanded="true" signature="1047:1140" ph="/// 删除 ... " />
+            <marker date="1528614184049" expanded="true" signature="1182:1313" ph="/// 根据Id获取实体 ... " />
+            <marker date="1528614184049" expanded="true" signature="1363:1500" ph="/// 根据用户获取功能菜单 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/MenuAppService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1528614122335" expanded="false" signature="6:172" ph="..." />
+            <marker date="1528614122335" expanded="true" signature="209:2736" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="259:2734" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="565:723" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="765:954" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="1064:1280" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="1328:1474" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="1524:1607" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="1646:1706" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="1745:1830" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="1889:2728" ph="{...}" />
+            <marker date="1528614122335" expanded="true" signature="2432:2561" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <marker date="1527517160964" expanded="false" signature="6:97" ph="..." />
+            <marker date="1527517160964" expanded="true" signature="136:3438" ph="{...}" />
+            <marker date="1527517160964" expanded="true" signature="143:190" ph="/// 仓储接口定义 ... " />
+            <marker date="1527517160964" expanded="true" signature="223:236" ph="{...}" />
+            <marker date="1527517160964" expanded="true" signature="241:396" ph="/// 定义泛型仓储接口 ... " />
+            <marker date="1527517160964" expanded="true" signature="501:3221" ph="{...}" />
+            <marker date="1527517160964" expanded="true" signature="516:603" ph="/// 获取实体集合 ... " />
+            <marker date="1527517160964" expanded="true" signature="649:805" ph="/// 根据lambda表达式条件获取实体集合 ... " />
+            <marker date="1527517160964" expanded="true" signature="892:1023" ph="/// 根据主键获取实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="1070:1226" ph="/// 根据lambda表达式条件获取单个实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="1311:1492" ph="/// 新增实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="1564:1713" ph="/// 更新实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="1785:1937" ph="/// 新增或更新实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="2017:2170" ph="/// 删除实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="2239:2386" ph="/// 删除实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="2455:2612" ph="/// 根据条件删除实体 ... " />
+            <marker date="1527517160964" expanded="true" signature="2704:3023" ph="/// 分页获取数据 ... " />
+            <marker date="1527517160964" expanded="true" signature="3227:3327" ph="/// 默认Guid主键类型仓储 ... " />
+            <marker date="1527517160964" expanded="true" signature="3423:3436" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/Entites/Menu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <marker date="1528620404834" expanded="false" signature="6:58" ph="..." />
+            <marker date="1528620404834" expanded="true" signature="91:1063" ph="{...}" />
+            <marker date="1528620404834" expanded="true" signature="98:145" ph="/// 功能菜单实体 ... " />
+            <marker date="1528620404834" expanded="true" signature="176:1061" ph="{...}" />
+            <marker date="1528620404834" expanded="true" signature="216:269" ph="/* 父级ID ... */" />
+            <marker date="1528620404834" expanded="true" signature="324:375" ph="/// 序号 ... " />
+            <marker date="1528620404834" expanded="true" signature="431:484" ph="/// 菜单名称 ... " />
+            <marker date="1528620404834" expanded="true" signature="535:588" ph="/// 菜单编码 ... " />
+            <marker date="1528620404834" expanded="true" signature="639:692" ph="/// 菜单地址 ... " />
+            <marker date="1528620404834" expanded="true" signature="742:806" ph="/// 类型：0导航菜单；1操作按钮。 ... " />
+            <marker date="1528620404834" expanded="true" signature="854:907" ph="/// 菜单图标 ... " />
+            <marker date="1528620404834" expanded="true" signature="958:1011" ph="/// 菜单备注 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CAAEC387-1ED9-4CD7-A34E-8AFED49FA62F/39/d283cb6d/ControllerActionInvoker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="271" column="13" lean-forward="true" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
+          <folding>
+            <marker date="1528619640190" expanded="true" signature="0:421" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1528619640190" expanded="false" signature="429:793" ph="..." />
+            <marker date="1528619640190" expanded="true" signature="838:16400" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="913:16398" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="1537:1729" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="1779:1857" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="1795:1851" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="1905:2098" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="2242:8548" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="2268:8542" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="2749:2860" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="3163:3581" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="3627:4039" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="4619:4734" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="4977:5365" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="5247:5352" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="5996:6452" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="6271:6376" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="6467:6801" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="6600:6722" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="7472:7582" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="7758:8144" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="8005:8060" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="8602:9469" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="8680:9094" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="9121:9463" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="9375:9454" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="9553:9997" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="10047:13793" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="10770:13601" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="11080:11212" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="11258:11403" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="11464:11781" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="11855:12439" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="12129:12429" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="12481:12836" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="12737:12792" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="12896:13052" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="13065:13445" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="13332:13401" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="13615:13787" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="13871:14050" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="14056:14239" ph="/// &lt;remarks&gt;&lt;see cref=&quot;M:Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync&quot; /&gt; for deta ... " />
+            <marker date="1528619640190" expanded="true" signature="14298:14648" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="14712:14961" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="15000:15352" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="15487:16129" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="15769:16100" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="16153:16194" ph="{...}" />
+            <marker date="1528619640190" expanded="true" signature="16218:16394" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/MenuController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <marker date="1528615401014" expanded="false" signature="6:232" ph="..." />
+            <marker date="1528615401014" expanded="true" signature="267:3749" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="324:3747" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="483:549" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="618:665" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="674:766" ph="/// 获取功能树JSON数据 ... " />
+            <marker date="1528615401014" expanded="true" signature="831:1242" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="999:1195" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="1251:1340" ph="/// 获取子级功能列表 ... " />
+            <marker date="1528615401014" expanded="true" signature="1432:1794" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="1617:1782" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="1803:1930" ph="/// 新增或编辑功能 ... " />
+            <marker date="1528615401014" expanded="true" signature="1977:2410" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2024:2211" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2087:2195" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2264:2349" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2462:3126" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2488:2906" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2658:2730" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2832:2890" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="2939:3116" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3002:3100" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3173:3600" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3199:3380" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3306:3364" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3413:3590" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3476:3574" ph="{...}" />
+            <marker date="1528615401014" expanded="true" signature="3643:3740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Menu/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <marker date="1528556673462" expanded="true" signature="0:38" ph="@..." />
+            <marker date="1528556673462" expanded="true" signature="39:3366" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="61:396" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="92:385" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="134:237" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="250:370" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="289:351" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="401:3359" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="432:3348" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="474:1664" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="575:1645" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="630:862" ph="&lt;button.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="883:1116" ph="&lt;button.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1137:1366" ph="&lt;button.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1387:1622" ph="&lt;button.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1677:3333" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1716:3314" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1767:3159" ph="&lt;table.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1919:3075" ph="&lt;thead.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="1955:3042" ph="&lt;tr.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="2167:2277" ph="&lt;th.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="2310:2420" ph="&lt;th.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="2453:2561" ph="&lt;th.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="2594:2702" ph="&lt;th.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="2735:2845" ph="&lt;th.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="2878:3008" ph="&lt;th.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="3180:3291" ph="&lt;div.../&gt;" />
+            <marker date="1528556673462" expanded="true" signature="3390:3459" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/UserApp/Dtos/UserDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1527517306844" expanded="false" signature="6:47" ph="..." />
+            <marker date="1527517306844" expanded="true" signature="89:1592" ph="{...}" />
+            <marker date="1527517306844" expanded="true" signature="116:1590" ph="{...}" />
+            <marker date="1527517306844" expanded="true" signature="170:222" ph="/// 用户名 ... " />
+            <marker date="1527517306844" expanded="true" signature="277:328" ph="/// 密码 ... " />
+            <marker date="1527517306844" expanded="true" signature="383:436" ph="/// 用户姓名 ... " />
+            <marker date="1527517306844" expanded="true" signature="487:540" ph="/// 邮箱地址 ... " />
+            <marker date="1527517306844" expanded="true" signature="592:644" ph="/// 手机号 ... " />
+            <marker date="1527517306844" expanded="true" signature="703:754" ph="/// 备注 ... " />
+            <marker date="1527517306844" expanded="true" signature="808:860" ph="/// 创建人 ... " />
+            <marker date="1527517306844" expanded="true" signature="919:972" ph="/// 创建时间 ... " />
+            <marker date="1527517306844" expanded="true" signature="1032:1087" ph="/// 上次登录时间 ... " />
+            <marker date="1527517306844" expanded="true" signature="1149:1202" ph="/// 登录次数 ... " />
+            <marker date="1527517306844" expanded="true" signature="1256:1309" ph="/// 部门ID ... " />
+            <marker date="1527517306844" expanded="true" signature="1366:1420" ph="/// 是否已删除 ... " />
+            <marker date="1527517306844" expanded="true" signature="1473:1526" ph="/// 角色集合 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/UserApp/UserAppService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <marker date="1527517455746" expanded="false" signature="6:167" ph="..." />
+            <marker date="1527517455746" expanded="true" signature="204:2189" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="254:2187" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="343:457" ph="/// 构造函数 实现依赖注入 ... " />
+            <marker date="1527517455746" expanded="true" signature="519:581" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="646:728" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="845:1032" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="1042:1169" ph="/// 新增或修改 ... " />
+            <marker date="1527517455746" expanded="true" signature="1220:1441" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="1450:1552" ph="/// 根据Id集合批量删除 ... " />
+            <marker date="1527517455746" expanded="true" signature="1602:1681" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="1691:1782" ph="/// 删除 ... " />
+            <marker date="1527517455746" expanded="true" signature="1820:1876" ph="{...}" />
+            <marker date="1527517455746" expanded="true" signature="1886:2015" ph="/// 根据Id获取实体 ... " />
+            <marker date="1527517455746" expanded="true" signature="2053:2181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/AmbielRepositoryBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="161" column="26" lean-forward="true" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+          <folding>
+            <marker date="1527427237212" expanded="false" signature="6:153" ph="..." />
+            <marker date="1527427237212" expanded="true" signature="204:6177" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="347:6175" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="417:530" ph="/// 通过构造函数注入得到数据上下文对象实例 ... " />
+            <marker date="1527427237212" expanded="true" signature="593:649" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="658:745" ph="/// 获取实体集合 ... " />
+            <marker date="1527427237212" expanded="true" signature="787:862" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="871:1027" ph="/// 根据lambda表达式条件获取实体集合 ... " />
+            <marker date="1527427237212" expanded="true" signature="1110:1202" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="1211:1342" ph="/// 根据主键获取实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="1385:1501" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="1511:1667" ph="/// 根据lambda表达式条件获取单个实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="1748:1840" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="1849:2030" ph="/// 新增实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="2098:2246" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="2255:2404" ph="/// 更新实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="2472:2648" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="2722:2934" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="2793:2924" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="2943:3095" ph="/// 新增或更新实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="3171:3325" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="3334:3487" ph="/// 删除实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="3552:3676" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="3685:3832" ph="/// 删除实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="3897:4022" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="4031:4188" ph="/// 根据条件删除实体 ... " />
+            <marker date="1527427237212" expanded="true" signature="4276:4459" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="4468:4781" ph="/// 分页查询 ... " />
+            <marker date="1527427237212" expanded="true" signature="4970:5416" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="5426:5480" ph="/// 事务性保存 ... " />
+            <marker date="1527427237212" expanded="true" signature="5507:5565" ph="{...}" />
+            <marker date="1527427237212" expanded="true" signature="5574:5706" ph="/// 根据主键构建判断表达式 ... " />
+            <marker date="1527427237212" expanded="true" signature="5809:6169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Domain/IRepositories/IMenuRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <marker date="1527401890489" expanded="true" signature="67:148" ph="{...}" />
+            <marker date="1527401890489" expanded="true" signature="125:146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1528614216540" expanded="false" signature="6:96" ph="..." />
+            <marker date="1528614216540" expanded="true" signature="147:1215" ph="{...}" />
+            <marker date="1528614216540" expanded="true" signature="232:1213" ph="{...}" />
+            <marker date="1528614216540" expanded="true" signature="313:334" ph="{...}" />
+            <marker date="1528614216540" expanded="true" signature="343:541" ph="/// 检查用户是存在 ... " />
+            <marker date="1528614216540" expanded="true" signature="605:741" ph="{...}" />
+            <marker date="1528614216540" expanded="true" signature="750:879" ph="/// 根据Id获取实体 ... " />
+            <marker date="1528614216540" expanded="true" signature="924:1207" ph="{...}" />
+            <marker date="1528614216540" expanded="true" signature="1045:1172" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Menu/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/RegisterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <marker date="1528622086959" expanded="true" signature="66:230" ph="{...}" />
+            <marker date="1528622086959" expanded="true" signature="117:228" ph="{...}" />
+            <marker date="1528622086959" expanded="true" signature="175:222" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/AmbielBaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="71" />
+          <folding>
+            <marker date="1528615365457" expanded="false" signature="6:71" ph="..." />
+            <marker date="1528615365457" expanded="true" signature="106:1007" ph="{...}" />
+            <marker date="1528615365457" expanded="true" signature="159:1005" ph="{...}" />
+            <marker date="1528615365457" expanded="true" signature="250:593" ph="{...}" />
+            <marker date="1528615365457" expanded="true" signature="405:532" ph="{...}" />
+            <marker date="1528615365457" expanded="true" signature="602:698" ph="/// 获取服务端验证的第一条错误信息 ... " />
+            <marker date="1528615365457" expanded="true" signature="741:999" ph="{...}" />
+            <marker date="1528615365457" expanded="true" signature="803:966" ph="{...}" />
+            <marker date="1528615365457" expanded="true" signature="860:952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/LoginModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="44" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <marker date="1528379784012" expanded="true" signature="74:384" ph="{...}" />
+            <marker date="1528379784012" expanded="true" signature="104:382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/RegisterModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <marker date="1528623998864" expanded="true" signature="74:654" ph="{...}" />
+            <marker date="1528623998864" expanded="true" signature="107:652" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Login/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="91" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="91" />
+          <folding>
+            <marker date="1528617622326" expanded="true" signature="0:23" ph="@..." />
+            <marker date="1528617622326" expanded="true" signature="58:4024" ph="&lt;html.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="65:654" ph="&lt;head.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="544:646" ph="&lt;style.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="565:633" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="655:4016" ph="&lt;body.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="724:2497" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="757:867" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="902:2460" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="1125:2449" ph="&lt;form.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="1222:1537" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="1550:1868" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="1881:2433" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="1915:2179" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="1958:2156" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="2012:2129" ph="&lt;label.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="2227:2383" ph="&lt;div.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="2833:4008" ph="&lt;script.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="2859:3615" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="2887:3040" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="3670:3997" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="4025:6956" ph="&lt;script.../&gt;" />
+            <marker date="1528617622326" expanded="true" signature="4168:4389" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="4412:4674" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="4616:4671" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="4772:4852" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="4886:4929" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="4931:4978" ph="/* 添加粒子 ... */" />
+            <marker date="1528617622326" expanded="true" signature="5197:5282" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="5340:5358" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="5397:6946" ph="{...}" />
+            <marker date="1528617622326" expanded="true" signature="5554:6924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Register/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+          <folding>
+            <marker date="1528624083240" expanded="true" signature="0:21" ph="@..." />
+            <marker date="1528624083240" expanded="true" signature="59:3085" ph="&lt;html.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="66:607" ph="&lt;head.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="608:3077" ph="&lt;body.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="653:2630" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="682:770" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="774:2608" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="797:2575" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="956:2483" ph="&lt;form.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="1049:1334" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="1343:1623" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="1632:1920" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="1929:2226" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="2235:2469" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="2298:2429" ph="&lt;div.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="2869:3069" ph="&lt;script.../&gt;" />
+            <marker date="1528624083240" expanded="true" signature="2894:3058" ph="{...}" />
+            <marker date="1528624083240" expanded="true" signature="2918:3053" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

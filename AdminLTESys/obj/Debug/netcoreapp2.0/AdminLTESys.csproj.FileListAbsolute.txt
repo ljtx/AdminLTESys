@@ -1,0 +1,9 @@
+C:\netcoreforgithub\AdminLTESys\bin\Debug\netcoreapp2.0\AdminLTESys.deps.json
+C:\netcoreforgithub\AdminLTESys\bin\Debug\netcoreapp2.0\AdminLTESys.runtimeconfig.json
+C:\netcoreforgithub\AdminLTESys\bin\Debug\netcoreapp2.0\AdminLTESys.runtimeconfig.dev.json
+C:\netcoreforgithub\AdminLTESys\bin\Debug\netcoreapp2.0\AdminLTESys.dll
+C:\netcoreforgithub\AdminLTESys\bin\Debug\netcoreapp2.0\AdminLTESys.pdb
+C:\netcoreforgithub\AdminLTESys\obj\Debug\netcoreapp2.0\AdminLTESys.csprojAssemblyReference.cache
+C:\netcoreforgithub\AdminLTESys\obj\Debug\netcoreapp2.0\AdminLTESys.csproj.CoreCompileInputs.cache
+C:\netcoreforgithub\AdminLTESys\obj\Debug\netcoreapp2.0\AdminLTESys.dll
+C:\netcoreforgithub\AdminLTESys\obj\Debug\netcoreapp2.0\AdminLTESys.pdb
