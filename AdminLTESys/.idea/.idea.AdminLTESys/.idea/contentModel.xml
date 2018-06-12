@@ -18,6 +18,13 @@
             </e>
           </e>
         </e>
+        <e p="DepartmentApp" t="Include">
+          <e p="DepartmentAppService.cs" t="Include" />
+          <e p="Dtos" t="Include">
+            <e p="DepartmentDto.cs" t="Include" />
+          </e>
+          <e p="IDepartmentAppService.cs" t="Include" />
+        </e>
         <e p="MenuApp" t="Include">
           <e p="Dtos" t="Include">
             <e p="MenuDto.cs" t="Include" />
@@ -192,12 +199,24 @@
       <e p="appsettings.json" t="Include" />
       <e p="Bin" t="ExcludeRecursive" />
       <e p="bundleconfig.json" t="Include" />
+      <e p="Common" t="Include">
+        <e p="MailSend.cs" t="Include" />
+      </e>
+      <e p="Components" t="Include">
+        <e p="NavigationViewComponent.cs" t="Include" />
+      </e>
       <e p="Controllers" t="Include">
         <e p="AmbielBaseController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
         <e p="LoginController.cs" t="Include" />
         <e p="MenuController.cs" t="Include" />
         <e p="RegisterController.cs" t="Include" />
+        <e p="UserController.cs" t="Include" />
+      </e>
+      <e p="log-file.log" t="Include" />
+      <e p="log4net.config" t="Include" />
+      <e p="logfile" t="Include">
+        <e p="20180612.log" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />
@@ -212,6 +231,11 @@
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Department" t="Include">
+          <e p="_Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="index.js" t="Include" />
+        </e>
         <e p="Home" t="Include">
           <e p="About.cshtml" t="Include" />
           <e p="Contact.cshtml" t="Include" />
@@ -228,10 +252,25 @@
         <e p="Register" t="Include">
           <e p="Index.cshtml" t="Include" />
         </e>
+        <e p="Role" t="Include">
+          <e p="_Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="index.js" t="Include" />
+        </e>
         <e p="Shared" t="Include">
           <e p="_Layout.cshtml" t="Include" />
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          <e p="Components" t="Include">
+            <e p="Navigation" t="Include">
+              <e p="Default.cshtml" t="Include" />
+            </e>
+          </e>
           <e p="Error.cshtml" t="Include" />
+        </e>
+        <e p="User" t="Include">
+          <e p="_Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="index.js" t="Include" />
         </e>
       </e>
       <e p="wwwroot" t="Include">

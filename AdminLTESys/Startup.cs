@@ -4,12 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Ambiel.AppService;
+using Ambiel.AppService.DepartmentApp;
 using Ambiel.AppService.MenuApp;
 using Ambiel.AppService.RoleApp;
 using Ambiel.AppService.UserApp;
 using Ambiel.Domain.IRepositories;
 using Ambiel.EntityFrameworkCore;
 using Ambiel.EntityFrameworkCore.Repositories;
+using log4net;
+using log4net.Config;
+using log4net.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +25,9 @@ namespace AdminLTESys
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
+        public static ILoggerRepository repository { get; set; }
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -28,13 +35,13 @@ namespace AdminLTESys
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
                
             Configuration = builder.Build();
-            
+            repository = LogManager.CreateRepository("NETCoreRepository");
+            XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
             //初始化映射关系
             AmbielMapper.Initialize();
         }
 
-        public IConfiguration Configuration { get; }
-
+       
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -45,7 +52,8 @@ namespace AdminLTESys
             services.AddScoped<IUserAppService, UserAppService>();
             services.AddScoped<IMenuRepository, MenuRepository>();
             services.AddScoped<IMenuAppService, MenuAppService>();
-            
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            services.AddScoped<IDepartmentAppService, DepartmentAppService>();
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IRoleAppService, RoleAppService>();
             services.AddMvc();
