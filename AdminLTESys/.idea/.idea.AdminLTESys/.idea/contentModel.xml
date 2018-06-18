@@ -4,6 +4,41 @@
     <e p="C:\netcoreforgithub\AdminLTESys" t="IncludeRecursive">
       <e p="AdminLTESys.csproj" t="IncludeRecursive" />
       <e p="AdminLTESys.sln" t="IncludeFlat" />
+      <e p="Ambiel.ADONET" t="IncludeRecursive">
+        <e p="Ambiel.ADONET.csproj" t="IncludeRecursive" />
+        <e p="Bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Ambiel.AdoNet.deps.json" t="Include" />
+              <e p="Ambiel.AdoNet.dll" t="Include" />
+              <e p="Ambiel.AdoNet.pdb" t="Include" />
+              <e p="System.Data.SqlClient.dll" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="DataBaseType.cs" t="Include" />
+        <e p="DbFactory.cs" t="Include" />
+        <e p="DBUtils.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Ambiel.ADONET.csproj.nuget.cache" t="Include" />
+          <e p="Ambiel.ADONET.csproj.nuget.g.props" t="Include" />
+          <e p="Ambiel.ADONET.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Ambiel.ADONET.AssemblyInfo.cs" t="Include" />
+              <e p="Ambiel.ADONET.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Ambiel.AdoNet.csproj.CopyComplete" t="Include" />
+              <e p="Ambiel.AdoNet.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Ambiel.AdoNet.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Ambiel.AdoNet.csprojAssemblyReference.cache" t="Include" />
+              <e p="Ambiel.AdoNet.dll" t="Include" />
+              <e p="Ambiel.AdoNet.pdb" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+      </e>
       <e p="Ambiel.AppService" t="IncludeRecursive">
         <e p="Ambiel.AppService.csproj" t="IncludeRecursive" />
         <e p="AmbielMapper.cs" t="Include" />
@@ -217,6 +252,7 @@
       <e p="log4net.config" t="Include" />
       <e p="logfile" t="Include">
         <e p="20180612.log" t="Include" />
+        <e p="20180618.log" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />

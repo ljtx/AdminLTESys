@@ -1,0 +1,12 @@
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.csprojAssemblyReference.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.csproj.CoreCompileInputs.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.AssemblyInfoInputs.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.AssemblyInfo.cs
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\bin\Debug\netcoreapp2.0\Ambiel.AdoNet.deps.json
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\bin\Debug\netcoreapp2.0\Ambiel.AdoNet.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\bin\Debug\netcoreapp2.0\Ambiel.AdoNet.pdb
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\bin\Debug\netcoreapp2.0\System.Data.SqlClient.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\bin\Debug\netcoreapp2.0\System.Data.SqlClient.xml
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.csproj.CopyComplete
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.AdoNet\obj\Debug\netcoreapp2.0\Ambiel.AdoNet.pdb

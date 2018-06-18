@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Ambiel.AdoNet;
 using Ambiel.AppService;
 using Ambiel.AppService.DepartmentApp;
 using Ambiel.AppService.MenuApp;
@@ -56,6 +57,7 @@ namespace AdminLTESys
             services.AddScoped<IDepartmentAppService, DepartmentAppService>();
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IRoleAppService, RoleAppService>();
+            //services.AddSingleton(DBUtils.NewInstance(sqlConnectionString));
             services.AddMvc();
             //Session服务
             services.AddSession();
