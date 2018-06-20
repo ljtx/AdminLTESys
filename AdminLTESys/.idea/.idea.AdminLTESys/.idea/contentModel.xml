@@ -38,6 +38,7 @@
           <e p="project.assets.json" t="Include" />
           <e p="project.packagespec.json" t="Include" />
         </e>
+        <e p="SqlParam.cs" t="Include" />
       </e>
       <e p="Ambiel.AppService" t="IncludeRecursive">
         <e p="Ambiel.AppService.csproj" t="IncludeRecursive" />
@@ -253,6 +254,7 @@
       <e p="logfile" t="Include">
         <e p="20180612.log" t="Include" />
         <e p="20180618.log" t="Include" />
+        <e p="20180619.log" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />

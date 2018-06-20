@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using MySql.Data.MySqlClient;
 
 namespace Ambiel.AdoNet
 {
@@ -69,73 +73,160 @@ namespace Ambiel.AdoNet
 
             dbFactory = DbFactory.NewInstance(connectionString, dataBaseType);
         }
-       
-    
-       
+
+        /// <summary>
+        /// 创建合适的sqlparameter
+        /// </summary>
+        /// <param name="commandParameter"></param>
+        public static List<IDbDataParameter> CreateDataparameters(SqlParam commandParameter)
+        {
+            IDbDataParameter trueCommandParameter = null;
+            string character = dbFactory.CreateDbParamCharacter();
+            List<IDbDataParameter> trueCommandParameters = new  List<IDbDataParameter>();
+            switch (dataBaseType)
+            {
+                case DataBaseType.DatabaseType.MYSQL:
+                    string param = commandParameter._param.Replace("@", character);
+                    trueCommandParameter =
+                        new MySqlParameter(param, commandParameter._value);
+                    trueCommandParameters.Add(trueCommandParameter);
+                    break;
+                 default:
+                     trueCommandParameter =
+                         new SqlParameter(commandParameter._param, commandParameter._value);
+                     trueCommandParameters.Add(trueCommandParameter);
+                     break;
+            }
+
+           return trueCommandParameters;
+        }
         /// <summary>
         ///通过提供的参数，执行无结果集返回的数据库操作命令
         ///并返回执行数据库操作所影响的行数。
         /// </summary>
         /// <param name="dbFactory">数据库配置对象</param>
+        /// <param name="connection">数据库连接对象</param>
+        /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
+        /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
+        /// <returns>返回通过执行命令所影响的行数</returns>
+        public static int ExecuteNonQuery(CommandType cmdType, string cmdText)
+        {
+            int val = 0;
+            using (IDbConnection connection = dbFactory.CreateDbConnection())
+            {
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    PrepareCommand(dbFactory, cmd, connection, null, cmdType, cmdText, null);
+                    val = cmd.ExecuteNonQuery();
+                    cmd.Parameters.Clear();
+                }
+            }
+            return val;
+        }
+        /// <summary>
+        ///通过提供的参数，执行无结果集返回的数据库操作命令
+        ///并返回执行数据库操作所影响的行数。
+        /// </summary>
+        /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
+        /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
+        /// <param name="commandParameters"></param>
+        /// <returns>返回通过执行命令所影响的行数</returns>
+        public static int ExecuteNonQuery( CommandType cmdType, string cmdText, params SqlParam[] commandParameters)
+        {
+            List<IDbDataParameter> trueCommandParameters = null;
+            int val = 0;
+            using (IDbConnection connection = dbFactory.CreateDbConnection())
+            {
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    foreach (var item in commandParameters)
+                    {
+                        trueCommandParameters = CreateDataparameters(item);
+                    }
+                    PrepareCommand(dbFactory, cmd, connection,null, cmdType, cmdText,  trueCommandParameters);
+                    val = cmd.ExecuteNonQuery();
+                    cmd.Parameters.Clear();
+                }
+            }
+            return val;
+        }
+        /// <summary>
+        ///通过提供的参数，执行无结果集返回的数据库操作命令
+        ///并返回执行数据库操作所影响的行数。
+        /// </summary>
         /// <param name="trans">sql事务对象</param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
         /// <param name="commandParameters">执行命令所需的参数数组</param>
         /// <returns>返回通过执行命令所影响的行数</returns>
-        public static int ExecuteNonQuery(DbFactory dbFactory, IDbTransaction trans, CommandType cmdType, string cmdText, params IDbDataParameter[] commandParameters)
+        public static int ExecuteNonQuery(IDbTransaction trans, CommandType cmdType, string cmdText, params SqlParam[] commandParameters)
         {
             int val = 0;
-            IDbCommand cmd = dbFactory.CreateDbCommand();
-
-            if (trans == null || trans.Connection == null)
+            List<IDbDataParameter> trueCommandParameters = null;
+            using (IDbConnection conn = dbFactory.CreateDbConnection())
             {
-                using (IDbConnection conn = dbFactory.CreateDbConnection())
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
                 {
-                    PrepareCommand(dbFactory, cmd, conn, trans, cmdType, cmdText, commandParameters);
-                    val = cmd.ExecuteNonQuery();
+                    if (trans == null || trans.Connection == null)
+                    {
+                        foreach (var item in commandParameters)
+                        {
+                            trueCommandParameters = CreateDataparameters(item);
+                        }
+
+                        PrepareCommand(dbFactory, cmd, conn, trans, cmdType, cmdText, trueCommandParameters);
+                        val = cmd.ExecuteNonQuery();
+                    }
+                    else
+                    {
+                        foreach (var item in commandParameters)
+                        {
+                            trueCommandParameters = CreateDataparameters(item);
+                        }
+
+                        PrepareCommand(dbFactory, cmd, trans.Connection, trans, cmdType, cmdText,
+                            trueCommandParameters);
+                        val = cmd.ExecuteNonQuery();
+                    }
+                    cmd.Parameters.Clear();
                 }
             }
-            else
-            {
-                PrepareCommand(dbFactory, cmd, trans.Connection, trans, cmdType, cmdText, commandParameters);
-                val = cmd.ExecuteNonQuery();
-            }
-
-            cmd.Parameters.Clear();
             return val;
         }
         /// <summary>
         /// 使用提供的参数，执行有结果集返回的数据库操作命令
         /// 并返回SqlDataReader对象
         /// </summary>
-        /// <remarks>
-        /// e.g.:  
-        ///  SqlDataReader r = ExecuteReader(connString, CommandType.StoredProcedure, "PublishOrders", new SqlParameter("@prodid", 24));
-        /// </remarks>
-        /// <param name="dbFactory">数据库配置对象</param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
         /// <param name="commandParameters">执行命令所需的参数数组</param>
         /// <returns>返回SqlDataReader对象</returns>
-        public static IDataReader ExecuteReader(DbFactory dbFactory, CommandType cmdType, string cmdText, params IDbDataParameter[] commandParameters)
+        public static IDataReader ExecuteReader(DbFactory dbFactory, CommandType cmdType, string cmdText, params SqlParam[] commandParameters)
         {
-            IDbCommand cmd = dbFactory.CreateDbCommand();
+            
             IDbConnection conn = dbFactory.CreateDbConnection();
-
             //我们在这里使用一个 try/catch,因为如果PrepareCommand方法抛出一个异常，我们想在捕获代码里面关闭
             //connection连接对象，因为异常发生datareader将不会存在，所以commandBehaviour.CloseConnection
             //将不会执行。
             try
             {
-                PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, commandParameters);
-                IDataReader rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
-                cmd.Parameters.Clear();
-                return rdr;
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    List<IDbDataParameter> trueCommandParameters = null;
+                    foreach (var item in commandParameters)
+                    {
+                        trueCommandParameters = CreateDataparameters(item);
+                    }
+
+                    PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, trueCommandParameters);
+                    IDataReader rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                    cmd.Parameters.Clear();
+                    return rdr;
+                }
             }
             catch
             {
                 conn.Close();
-                cmd.Dispose();
                 throw;
             }
         }
@@ -143,13 +234,12 @@ namespace Ambiel.AdoNet
         ///使用提供的参数，执行有结果集返回的数据库操作命令
         /// 并返回SqlDataReader对象
         /// </summary>
-        /// <param name="dbFactory">数据库配置对象</param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
         /// <returns>返回SqlDataReader对象</returns>
-        public static IDataReader ExecuteReader(DbFactory dbFactory, CommandType cmdType, string cmdText)
+        public static IDataReader ExecuteReader( CommandType cmdType, string cmdText)
         {
-            IDbCommand cmd = dbFactory.CreateDbCommand();
+           
             IDbConnection conn = dbFactory.CreateDbConnection();
 
             //我们在这里使用一个 try/catch,因为如果PrepareCommand方法抛出一个异常，我们想在捕获代码里面关闭
@@ -157,15 +247,17 @@ namespace Ambiel.AdoNet
             //将不会执行。
             try
             {
-                PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, null);
-                IDataReader rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
-                cmd.Parameters.Clear();
-                return rdr;
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, null);
+                    IDataReader rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                    cmd.Parameters.Clear();
+                    return rdr;
+                }
             }
             catch (Exception ex)
             {
                 conn.Close();
-                cmd.Dispose();
                 throw ex;
             }
         }
@@ -173,27 +265,26 @@ namespace Ambiel.AdoNet
         ///使用提供的参数，执行有结果集返回的数据库操作命令
         /// 并返回SqlDataReader对象
         /// </summary>
-        /// <param name="dbFactory">数据库配置对象</param>
         /// <param name="trans"></param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
         /// <returns>返回SqlDataReader对象</returns>
-        public static IDataReader ExecuteReader(DbFactory dbFactory, IDbTransaction trans, CommandType cmdType, string cmdText)
+        public static IDataReader ExecuteReader(IDbTransaction trans, CommandType cmdType, string cmdText)
         {
-            IDbCommand cmd = dbFactory.CreateDbCommand();
             IDbConnection conn = trans.Connection;
-
             try
             {
-                PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, null);
-                IDataReader rdr = cmd.ExecuteReader();
-                cmd.Parameters.Clear();
-                return rdr;
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    PrepareCommand(dbFactory, cmd, conn,trans, cmdType, cmdText, null);
+                    IDataReader rdr = cmd.ExecuteReader();
+                    cmd.Parameters.Clear();
+                    return rdr;
+                }
             }
             catch (Exception ex)
             {
                 conn.Close();
-                cmd.Dispose();
                 throw ex;
             }
         }
@@ -201,42 +292,41 @@ namespace Ambiel.AdoNet
         ///使用提供的参数，执行有结果集返回的数据库操作命令
         /// 并返回SqlDataReader对象
         /// </summary>
-        /// <param name="dbFactory">数据库配置对象</param>
         /// <param name="closeConnection">读取完关闭Reader是否同时也关闭数据库连接</param>
         /// <param name="connection">数据库链接</param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
         /// <returns>返回SqlDataReader对象</returns>
-        public static IDataReader ExecuteReader(DbFactory dbFactory, bool closeConnection, IDbConnection connection, CommandType cmdType, string cmdText)
+        public static IDataReader ExecuteReader( bool closeConnection, IDbConnection connection, CommandType cmdType, string cmdText)
         {
-            IDbCommand cmd = dbFactory.CreateDbCommand();
+           
             IDbConnection conn = connection;
 
-            //我们在这里使用一个 try/catch,因为如果PrepareCommand方法抛出一个异常，我们想在捕获代码里面关闭
-            //connection连接对象，因为异常发生datareader将不会存在，所以commandBehaviour.CloseConnection
-            //将不会执行。
             try
             {
-                PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, null);
-                IDataReader rdr = closeConnection ? cmd.ExecuteReader(CommandBehavior.CloseConnection) : cmd.ExecuteReader(); 
-                cmd.Parameters.Clear();
-                return rdr;
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    PrepareCommand(dbFactory, cmd, conn, null, cmdType, cmdText, null);
+                    IDataReader rdr = closeConnection
+                        ? cmd.ExecuteReader(CommandBehavior.CloseConnection)
+                        : cmd.ExecuteReader();
+                    cmd.Parameters.Clear();
+                    return rdr;
+                }
             }
             catch (Exception ex)
             {
                 conn.Close();
-                cmd.Dispose();
                 throw ex;
             }
         }
         /// <summary>
         /// 查询数据填充到数据集DataSet中
         /// </summary>
-        /// <param name="dbFactory">数据库配置对象</param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">命令文本</param>
         /// <returns>数据集DataSet对象</returns>
-        public static DataSet dataSet(DbFactory dbFactory, CommandType cmdType, string cmdText)
+        public static DataSet dataSet( CommandType cmdType, string cmdText)
         {
             DataSet ds = new DataSet();
             IDbCommand cmd = dbFactory.CreateDbCommand();
@@ -271,33 +361,41 @@ namespace Ambiel.AdoNet
         /// <returns>返回一个对象，使用Convert.To{Type}将该对象转换成想要的数据类型。</returns>
         public static object ExecuteScalar( CommandType cmdType, string cmdText)
         {
-            IDbCommand cmd = dbFactory.CreateDbCommand();
-            IDbConnection connection = dbFactory.CreateDbConnection();
-            PrepareCommand(dbFactory, cmd, connection, null, cmdType, cmdText, null);
-            object val = cmd.ExecuteScalar();
-            cmd.Parameters.Clear();
-            return val;
+           
+            using (IDbConnection connection = dbFactory.CreateDbConnection())
+            {
+                using (IDbCommand cmd = dbFactory.CreateDbCommand())
+                {
+                    PrepareCommand(dbFactory, cmd, connection, null, cmdType, cmdText, null);
+                    object val = cmd.ExecuteScalar();
+                    cmd.Parameters.Clear();
+                    return val;
+                }
+            }
         }
        
         /// <summary>
         ///依靠数据库连接字符串connectionString,
         /// 使用所提供参数，执行返回首行首列命令
         /// </summary>
-        /// <param name="dbFactory">数据库配置对象</param>
         /// <param name="trans">数据库事物对象</param>
         /// <param name="cmdType">执行命令的类型（存储过程或T-SQL，等等）</param>
         /// <param name="cmdText">存储过程名称或者T-SQL命令行</param>
         /// <param name="commandParameters">执行命令所需的参数数组</param>
         /// <returns>返回一个对象，使用Convert.To{Type}将该对象转换成想要的数据类型。</returns>
-        public static object ExecuteScalar(DbFactory dbFactory, IDbTransaction trans, CommandType cmdType, string cmdText, params IDbDataParameter[] commandParameters)
+        /*public static object ExecuteScalar( IDbTransaction trans, CommandType cmdType, string cmdText, params SqlParam[] commandParameters)
         {
             IDbCommand cmd = dbFactory.CreateDbCommand();
-
-            PrepareCommand(dbFactory, cmd, trans.Connection, trans, cmdType, cmdText, commandParameters);
+            List<IDbDataParameter> trueCommandParameters = null;
+            foreach (var item in commandParameters)
+            {
+                trueCommandParameters=  CreateDataparameters(item);
+            }
+            PrepareCommand(dbFactory, cmd, trans.Connection, trans, cmdType, cmdText, trueCommandParameters);
             object val = cmd.ExecuteScalar();
             cmd.Parameters.Clear();
             return val;
-        }
+        }*/
 
         /// <summary>
         /// 执行命令前的准备工作
@@ -310,7 +408,7 @@ namespace Ambiel.AdoNet
         /// <param name="cmdText"></param>
         /// <param name="cmdParms"></param>
         private static void PrepareCommand(DbFactory dbFactory, IDbCommand cmd, IDbConnection conn,
-            IDbTransaction trans, CommandType cmdType, string cmdText, IDbDataParameter[] cmdParms)
+            IDbTransaction trans, CommandType cmdType, string cmdText, List<IDbDataParameter> cmdParms)
         {
             if (conn.State != ConnectionState.Open)
                 conn.Open();

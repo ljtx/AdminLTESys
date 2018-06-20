@@ -18,6 +18,9 @@ namespace AdminLTESys.Controllers
         public IActionResult Index()
         {
             //DBUtils.ExecuteScalar(CommandType.Text, "select * from users");
+            SqlParam[] sqlParams = new SqlParam[]{new SqlParam("@Id","cf9f7f8f-4569-4d33-b860-bb7b54e41083") };
+           int val =  DBUtils.ExecuteNonQuery(CommandType.Text,@"update users set EMail='864305382@qq.com'
+                      where Id=@Id",sqlParams);
             log.Info("登陆主页了");
             //DBUtils.ExecuteScalar(CommandType.Text, "select * from users");
             return View();
