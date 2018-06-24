@@ -32,7 +32,6 @@
               <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding>
                 <marker date="1529420127597" expanded="false" signature="6:261" ph="..." />
-                <marker date="1529420127597" expanded="true" signature="296:1474" ph="{...}" />
                 <marker date="1529420127597" expanded="true" signature="353:1472" ph="{...}" />
                 <marker date="1529420127597" expanded="true" signature="494:995" ph="{...}" />
                 <marker date="1529420127597" expanded="true" signature="1033:1153" ph="{...}" />
@@ -52,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBUtils.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBUtils.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ambiel.AdoNet/DBUtils.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="397" column="11" lean-forward="true" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+              <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
               <folding>
                 <marker date="1529507013387" expanded="false" signature="6:198" ph="..." />
                 <marker date="1529507013387" expanded="true" signature="223:16392" ph="{...}" />
@@ -137,13 +136,73 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HttpLib.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ambiel.Utility/WebHandle/HttpLib.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+              <folding>
+                <marker date="1529839328558" expanded="true" signature="6:67" ph="..." />
+                <marker date="1529839328558" expanded="true" signature="103:6858" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="130:6856" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="240:2012" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="424:581" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="598:683" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="907:1975" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="941:1526" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="1563:1938" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="1668:1920" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="1773:1898" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="2187:4355" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="2274:4318" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="2449:2622" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="2643:2740" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="3148:4029" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="4063:4281" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="4154:4263" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="4423:5408" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="4736:5371" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="5076:5161" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="5474:6850" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="5737:5801" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="5842:6738" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="6418:6505" ph="{...}" />
+                <marker date="1529839328558" expanded="true" signature="6770:6813" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeHelper.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ambiel.Utility/Time/TimeHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-390">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <marker date="1529839398005" expanded="true" signature="6:41" ph="..." />
+                <marker date="1529839398005" expanded="true" signature="72:2276" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="102:2274" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="184:231" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="289:393" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="448:523" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="588:728" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="803:913" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="977:1164" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="1238:1501" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="1575:1709" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="1772:2084" ph="{...}" />
+                <marker date="1529839398005" expanded="true" signature="2132:2268" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SqlParam.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ambiel.AdoNet/SqlParam.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="323">
               <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
-                <marker date="1529419801573" expanded="true" signature="43:737" ph="{...}" />
                 <marker date="1529419801573" expanded="true" signature="71:735" ph="{...}" />
                 <marker date="1529419801573" expanded="true" signature="86:137" ph="/// 参数 ... " />
                 <marker date="1529419801573" expanded="true" signature="189:242" ph="/// 参数类型 ... " />
@@ -178,11 +237,10 @@
       <file leaf-file-name="DbFactory.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ambiel.AdoNet/DbFactory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="1919">
               <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
               <folding>
                 <marker date="1529334382190" expanded="false" signature="6:125" ph="..." />
-                <marker date="1529334382190" expanded="true" signature="150:9728" ph="{...}" />
                 <marker date="1529334382190" expanded="true" signature="179:9726" ph="{...}" />
                 <marker date="1529334382190" expanded="true" signature="280:313" ph="{...}" />
                 <marker date="1529334382190" expanded="true" signature="323:539" ph="/// 根据数据库连接字符串以及数据库类型创建一个数据库工厂对象 ... " />
@@ -296,6 +354,8 @@
     <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/AmbielDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ambiel.Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Utility/WebHandle/HttpLib.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ambiel.Utility/Time/TimeHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ambiel.EntityFrameworkCore/SeedData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Menu/_Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Menu/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
@@ -384,8 +444,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ambiel.AppService/RoleApp/RoleAppService.cs" />
-        <option value="$PROJECT_DIR$/Ambiel.AppService/MenuApp/MenuAppService.cs" />
         <option value="$PROJECT_DIR$/Ambiel.AppService/MenuApp/IMenuAppService.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A15DA1E2-BC8E-41CB-AB31-85D47B7C2D1C/0f/71b93e06/Controller.cs" />
         <option value="$PROJECT_DIR$/Controllers/AmbielBaseController.cs" />
@@ -435,6 +493,8 @@
         <option value="$PROJECT_DIR$/Ambiel.AdoNet/SqlParam.cs" />
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Ambiel.AdoNet/DBUtils.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/WebHandle/HttpLib.cs" />
+        <option value="$PROJECT_DIR$/Ambiel.Utility/Time/TimeHelper.cs" />
       </list>
     </option>
   </component>
@@ -461,6 +521,17 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="AdminLTESys (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Ambiel.Utility" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Ambiel.Utility" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Time" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -545,11 +616,12 @@
       <workItem from="1529411928835" duration="5090000" />
       <workItem from="1529418977935" duration="1351000" />
       <workItem from="1529505231151" duration="1788000" />
+      <workItem from="1529838899214" duration="536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93436000" />
+    <option name="totallyTimeSpent" value="93972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +645,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.31150442" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33225545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33791432" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -695,20 +767,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Views/User/Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Register/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/Role/Index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
@@ -949,11 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <marker date="1529287236553" expanded="true" signature="55:258" ph="{...}" />
-            <marker date="1529287236553" expanded="true" signature="70:138" ph="/// 数据库类型枚举，需要扩展类型可在此添加 ... " />
-            <marker date="1529287236553" expanded="true" signature="171:252" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,7 +1059,6 @@
           <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
           <folding>
             <marker date="1529420127597" expanded="false" signature="6:261" ph="..." />
-            <marker date="1529420127597" expanded="true" signature="296:1474" ph="{...}" />
             <marker date="1529420127597" expanded="true" signature="353:1472" ph="{...}" />
             <marker date="1529420127597" expanded="true" signature="494:995" ph="{...}" />
             <marker date="1529420127597" expanded="true" signature="1033:1153" ph="{...}" />
@@ -1032,10 +1084,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ambiel.AdoNet/SqlParam.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="323">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
-            <marker date="1529419801573" expanded="true" signature="43:737" ph="{...}" />
             <marker date="1529419801573" expanded="true" signature="71:735" ph="{...}" />
             <marker date="1529419801573" expanded="true" signature="86:137" ph="/// 参数 ... " />
             <marker date="1529419801573" expanded="true" signature="189:242" ph="/// 参数类型 ... " />
@@ -1050,32 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
-          <folding>
-            <marker date="1528725171460" expanded="false" signature="6:183" ph="..." />
-            <marker date="1528725171460" expanded="true" signature="218:3335" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="275:3333" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="471:563" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="631:678" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="778:1221" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="1014:1209" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="1283:2016" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="1309:1867" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="1367:1459" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="1571:1696" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="1900:2006" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2069:2726" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2095:2506" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2265:2337" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2432:2490" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2539:2716" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2602:2700" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2773:3193" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2799:2973" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="2899:2957" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="3006:3183" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="3069:3167" ph="{...}" />
-            <marker date="1528725171460" expanded="true" signature="3237:3327" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,11 +1113,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ambiel.AdoNet/DbFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="1919">
           <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
           <folding>
             <marker date="1529334382190" expanded="false" signature="6:125" ph="..." />
-            <marker date="1529334382190" expanded="true" signature="150:9728" ph="{...}" />
             <marker date="1529334382190" expanded="true" signature="179:9726" ph="{...}" />
             <marker date="1529334382190" expanded="true" signature="280:313" ph="{...}" />
             <marker date="1529334382190" expanded="true" signature="323:539" ph="/// 根据数据库连接字符串以及数据库类型创建一个数据库工厂对象 ... " />
@@ -1147,7 +1171,7 @@
     <entry file="file://$PROJECT_DIR$/Ambiel.AdoNet/DBUtils.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="397" column="11" lean-forward="true" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+          <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
           <folding>
             <marker date="1529507013387" expanded="false" signature="6:198" ph="..." />
             <marker date="1529507013387" expanded="true" signature="223:16392" ph="{...}" />
@@ -1223,6 +1247,63 @@
             <marker date="1529507013387" expanded="true" signature="15890:16384" ph="{...}" />
             <marker date="1529507013387" expanded="true" signature="16204:16374" ph="{...}" />
             <marker date="1529507013387" expanded="true" signature="16278:16360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Utility/WebHandle/HttpLib.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding>
+            <marker date="1529839328558" expanded="true" signature="6:67" ph="..." />
+            <marker date="1529839328558" expanded="true" signature="103:6858" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="130:6856" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="240:2012" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="424:581" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="598:683" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="907:1975" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="941:1526" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="1563:1938" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="1668:1920" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="1773:1898" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="2187:4355" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="2274:4318" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="2449:2622" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="2643:2740" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="3148:4029" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="4063:4281" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="4154:4263" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="4423:5408" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="4736:5371" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="5076:5161" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="5474:6850" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="5737:5801" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="5842:6738" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="6418:6505" ph="{...}" />
+            <marker date="1529839328558" expanded="true" signature="6770:6813" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ambiel.Utility/Time/TimeHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <marker date="1529839398005" expanded="true" signature="6:41" ph="..." />
+            <marker date="1529839398005" expanded="true" signature="72:2276" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="102:2274" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="184:231" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="289:393" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="448:523" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="588:728" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="803:913" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="977:1164" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="1238:1501" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="1575:1709" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="1772:2084" ph="{...}" />
+            <marker date="1529839398005" expanded="true" signature="2132:2268" ph="{...}" />
           </folding>
         </state>
       </provider>

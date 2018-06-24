@@ -230,6 +230,12 @@
         <e p="Thread" t="Include">
           <e p="ThreadWorker.cs" t="Include" />
         </e>
+        <e p="Time" t="Include">
+          <e p="TimeHelper.cs" t="Include" />
+        </e>
+        <e p="WebHandle" t="Include">
+          <e p="HttpLib.cs" t="Include" />
+        </e>
       </e>
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
