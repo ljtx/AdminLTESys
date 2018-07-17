@@ -12,6 +12,7 @@ using Ambiel.AppService.UserApp;
 using Ambiel.Domain.IRepositories;
 using Ambiel.EntityFrameworkCore;
 using Ambiel.EntityFrameworkCore.Repositories;
+using Ambiel.RedisClient;
 using log4net;
 using log4net.Config;
 using log4net.Repository;
@@ -61,6 +62,8 @@ namespace AdminLTESys
             services.AddMvc();
             //Session服务
             services.AddSession();
+            services.AddOptions();
+            services.Configure<RedisConfigOptions>(Configuration.GetSection("RedisConfig"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

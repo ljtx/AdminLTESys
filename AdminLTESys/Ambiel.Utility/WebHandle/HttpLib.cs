@@ -141,7 +141,7 @@ namespace Ambiel.Utility.WebHandle
             {
                 File.Delete(text2);
             }
-            bool result;
+            bool result=false;
             try
             {
                 FileStream fileStream = new FileStream(text2, FileMode.Append, FileAccess.Write, FileShare.ReadWrite);

@@ -174,7 +174,6 @@
           <e p="AmbielDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
-          <e p="Ambiel.EntityFrameworkCore.csproj.EntityFrameworkCore.targets" t="Include" />
           <e p="Ambiel.EntityFrameworkCore.csproj.nuget.cache" t="Include" />
           <e p="Ambiel.EntityFrameworkCore.csproj.nuget.g.props" t="Include" />
           <e p="Ambiel.EntityFrameworkCore.csproj.nuget.g.targets" t="Include" />
@@ -202,6 +201,27 @@
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="SeedData.cs" t="Include" />
+      </e>
+      <e p="Ambiel.RedisClient" t="IncludeRecursive">
+        <e p="Ambiel.RedisClient.csproj" t="IncludeRecursive" />
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Ambiel.RedisClient.csproj.nuget.cache" t="Include" />
+          <e p="Ambiel.RedisClient.csproj.nuget.g.props" t="Include" />
+          <e p="Ambiel.RedisClient.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Ambiel.RedisClient.AssemblyInfo.cs" t="Include" />
+              <e p="Ambiel.RedisClient.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Ambiel.RedisClient.csprojAssemblyReference.cache" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+        <e p="RedisClient.cs" t="Include" />
+        <e p="RedisConfigOptions.cs" t="Include" />
+        <e p="RedisConnectionSingleton.cs" t="Include" />
       </e>
       <e p="Ambiel.Utility" t="IncludeRecursive">
         <e p="Ambiel.Utility.csproj" t="IncludeRecursive" />
@@ -243,6 +263,7 @@
       <e p="bundleconfig.json" t="Include" />
       <e p="Common" t="Include">
         <e p="MailSend.cs" t="Include" />
+        <e p="RedisOptions.cs" t="Include" />
       </e>
       <e p="Components" t="Include">
         <e p="NavigationViewComponent.cs" t="Include" />
@@ -261,6 +282,7 @@
         <e p="20180612.log" t="Include" />
         <e p="20180618.log" t="Include" />
         <e p="20180619.log" t="Include" />
+        <e p="20180717.log" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />
