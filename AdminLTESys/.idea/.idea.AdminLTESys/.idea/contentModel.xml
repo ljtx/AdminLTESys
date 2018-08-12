@@ -277,6 +277,8 @@
       <e p="Bin" t="ExcludeRecursive" />
       <e p="bundleconfig.json" t="Include" />
       <e p="Common" t="Include">
+        <e p="AssemblyHelper.cs" t="Include" />
+        <e p="JsonConfigurationHelper.cs" t="Include" />
         <e p="MailSend.cs" t="Include" />
         <e p="RedisOptions.cs" t="Include" />
       </e>
@@ -290,6 +292,9 @@
         <e p="MenuController.cs" t="Include" />
         <e p="RegisterController.cs" t="Include" />
         <e p="UserController.cs" t="Include" />
+      </e>
+      <e p="Extension" t="Include">
+        <e p="ServiceExtension.cs" t="Include" />
       </e>
       <e p="log-file.log" t="Include" />
       <e p="log4net.config" t="Include" />

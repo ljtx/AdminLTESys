@@ -58,6 +58,7 @@ namespace AdminLTESys
             services.AddScoped<IDepartmentAppService, DepartmentAppService>();
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IRoleAppService, RoleAppService>();
+            //services.RegisterAssembly("Core.BLL");
             //services.AddSingleton(DBUtils.NewInstance(sqlConnectionString));
             services.AddMvc();
             //Session服务

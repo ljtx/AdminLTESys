@@ -44,52 +44,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisConnectionSingleton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ambiel.RedisClient/RedisConnectionSingleton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="63" column="55" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="55" />
-              <folding>
-                <marker date="1531837921183" expanded="false" signature="6:113" ph="..." />
-                <marker date="1531837921183" expanded="true" signature="194:4798" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="621:961" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="669:918" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="778:886" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="970:1023" ph="/// 单例获取 ... " />
-                <marker date="1531837921183" expanded="true" signature="1137:1564" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="1199:1524" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="1347:1484" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="1574:1711" ph="/// 缓存获取 ... " />
-                <marker date="1531837921183" expanded="true" signature="1805:2053" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="1879:1989" ph="{...}" />
-                <marker date="1531837921183" expanded="true" signature="2136:2652" ph="{...}" />
-                <marker date="1531837921183" expanded="false" signature="2662:4783" ph="事件" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="65" column="92" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
+            <state relative-caret-position="403">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding>
-                <marker date="1531837762312" expanded="false" signature="6:743" ph="..." />
-                <marker date="1531837762312" expanded="true" signature="793:3648" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="966:1457" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="1634:2713" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="2901:3642" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="2948:3025" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="3042:3126" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="3229:3333" ph="{...}" />
-                <marker date="1531837762312" expanded="true" signature="3420:3592" ph="{...}" />
+                <marker date="1534081958052" expanded="false" signature="6:743" ph="..." />
+                <marker date="1534081958052" expanded="true" signature="766:3703" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="793:3701" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="966:1457" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="1634:2766" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="2419:2538" ph="/* services.RegisterAssembly(&quot;Core.BLL&quot;); ... */" />
+                <marker date="1534081958052" expanded="true" signature="2954:3695" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="3001:3078" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="3095:3179" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="3282:3386" ph="{...}" />
+                <marker date="1534081958052" expanded="true" signature="3473:3645" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisClient.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedisClient.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ambiel.RedisClient/RedisClient.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
@@ -108,7 +85,7 @@
                 <marker date="1534074976614" expanded="true" signature="1573:1685" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="1791:1890" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="1923:8835" ph="String" />
-                <marker date="1534074976614" expanded="true" signature="1946:5249" ph="同步方法" />
+                <marker date="1534074976614" expanded="false" signature="1946:5249" ph="同步方法" />
                 <marker date="1534074976614" expanded="true" signature="1968:2201" ph="/// 保存单个key value ... " />
                 <marker date="1534074976614" expanded="true" signature="2296:2419" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="2428:2570" ph="/// 保存多个key value ... " />
@@ -142,7 +119,7 @@
                 <marker date="1534074976614" expanded="true" signature="8256:8386" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="8396:8572" ph="/// 为数字减少val ... " />
                 <marker date="1534074976614" expanded="true" signature="8655:8785" ph="{...}" />
-                <marker date="1534074976614" expanded="true" signature="8853:14219" ph="List" />
+                <marker date="1534074976614" expanded="false" signature="8853:14219" ph="List" />
                 <marker date="1534074976614" expanded="false" signature="8875:11509" ph="同步方法" />
                 <marker date="1534074976614" expanded="true" signature="8903:9051" ph="/// 移除指定ListId的内部List的值 ... " />
                 <marker date="1534074976614" expanded="true" signature="9106:9228" ph="{...}" />
@@ -235,12 +212,64 @@
                 <marker date="1534074976614" expanded="true" signature="24169:24353" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="24362:24490" ph="/// 获取集合中的数量 ... " />
                 <marker date="1534074976614" expanded="true" signature="24555:24686" ph="{...}" />
-                <marker date="1534074976614" expanded="true" signature="24755:25356" ph="其他" />
+                <marker date="1534074976614" expanded="false" signature="24755:25356" ph="其他" />
                 <marker date="1534074976614" expanded="true" signature="24814:24888" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="24928:24993" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="25047:25116" ph="{...}" />
                 <marker date="1534074976614" expanded="true" signature="25126:25224" ph="/// 设置前缀 ... " />
                 <marker date="1534074976614" expanded="true" signature="25278:25333" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssemblyHelper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/AssemblyHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding>
+                <marker date="1534081792239" expanded="true" signature="6:164" ph="..." />
+                <marker date="1534081792239" expanded="true" signature="194:2675" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="228:2673" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="243:378" ph="/// 获取项目程序集，排除所有的系统程序集(Microsoft.***、System.***等)、Nuget下载包 ... " />
+                <marker date="1534081792239" expanded="true" signature="435:1074" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="701:1039" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="735:924" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="958:1025" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="1138:1266" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="1314:1677" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="1422:1642" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="1543:1628" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="1760:2127" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="2019:2092" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="2212:2667" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="2275:2655" ph="{...}" />
+                <marker date="1534081792239" expanded="true" signature="2427:2611" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceExtension.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Extension/ServiceExtension.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <marker date="1534081934243" expanded="true" signature="6:131" ph="..." />
+                <marker date="1534081934243" expanded="true" signature="164:3627" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="207:3625" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="222:423" ph="/// 用DI批量注入接口程序集中对应的实现类。 ... " />
+                <marker date="1534081934243" expanded="true" signature="544:1553" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="907:1036" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="1223:1515" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="1563:1857" ph="/// 用DI批量注入接口程序集中对应的实现类。 ... " />
+                <marker date="1534081934243" expanded="true" signature="2008:3619" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="2530:2659" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="2790:2919" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="3115:3580" ph="{...}" />
+                <marker date="1534081934243" expanded="true" signature="3458:3566" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -335,6 +364,9 @@
     <setting file="file://$PROJECT_DIR$/Views/Menu/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/MenuAppService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D85C908-D676-49C8-A469-C19A74522F33/4c/ce25e129/Dictionary`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/JsonConfigurationHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/AssemblyHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extension/ServiceExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A71C8DB1-FBFE-4964-B5B9-AF5B281E676F/b8/0fb5aa0a/ApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/IMenuAppService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ambiel.AppService/MenuApp/Dtos/MenuDto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -422,9 +454,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wwwroot/js/lizitexiao.js" />
-        <option value="$PROJECT_DIR$/Ambiel.EntityFrameworkCore/Repositories/RoleRepository.cs" />
-        <option value="$PROJECT_DIR$/Ambiel.Domain/Entites/Menu.cs" />
         <option value="$PROJECT_DIR$/Views/Menu/Index.js" />
         <option value="$PROJECT_DIR$/Models/RegisterModel.cs" />
         <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
@@ -468,11 +497,14 @@
         <option value="$PROJECT_DIR$/Common/RedisOptions.cs" />
         <option value="$PROJECT_DIR$/Ambiel.RedisClient/RedisConfigOptions.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Ambiel.RedisClient/RedisConnectionSingleton.cs" />
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Ambiel.Utility/WebHandle/HttpLib.cs" />
         <option value="$PROJECT_DIR$/Ambiel.RedisClient/RedisClient.cs" />
+        <option value="$PROJECT_DIR$/Common/JsonConfigurationHelper.cs" />
+        <option value="$PROJECT_DIR$/Common/AssemblyHelper.cs" />
+        <option value="$PROJECT_DIR$/Extension/ServiceExtension.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
     </option>
   </component>
@@ -483,7 +515,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="642" />
+    <option name="x" value="312" />
+    <option name="y" value="481" />
     <option name="width" value="1338" />
     <option name="height" value="930" />
   </component>
@@ -503,7 +536,19 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="AdminLTESys (7 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Ambiel.RedisClient" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (7 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Common" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="AdminLTESys (7 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AdminLTESys" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Extension" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -592,11 +637,12 @@
       <workItem from="1531835330841" duration="3305000" />
       <workItem from="1533300516736" duration="3905000" />
       <workItem from="1534073004123" duration="2098000" />
+      <workItem from="1534078821041" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104886000" />
+    <option name="totallyTimeSpent" value="106907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,6 +655,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32920355" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -620,9 +667,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.31150442" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16329831" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16572352" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.33451328" />
       <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -633,6 +679,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.33451328" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -794,175 +841,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ambiel.RedisClient/RedisClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7315">
-          <caret line="391" column="73" selection-start-line="391" selection-start-column="73" selection-end-line="391" selection-end-column="73" />
-          <folding>
-            <marker date="1534074976614" expanded="false" signature="6:182" ph="..." />
-            <marker date="1534074976614" expanded="true" signature="212:25364" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="243:25362" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="494:763" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="772:1914" ph="辅助方法" />
-            <marker date="1534074976614" expanded="true" signature="838:936" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="985:1093" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="1140:1288" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="1339:1419" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="1478:1722" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="1573:1685" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="1791:1890" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="1923:8835" ph="String" />
-            <marker date="1534074976614" expanded="true" signature="1946:5249" ph="同步方法" />
-            <marker date="1534074976614" expanded="true" signature="1968:2201" ph="/// 保存单个key value ... " />
-            <marker date="1534074976614" expanded="true" signature="2296:2419" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="2428:2570" ph="/// 保存多个key value ... " />
-            <marker date="1534074976614" expanded="true" signature="2652:2928" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="2958:3188" ph="/// 保存一个对象 ... " />
-            <marker date="1534074976614" expanded="true" signature="3279:3451" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="3460:3598" ph="/// 获取单个key的值 ... " />
-            <marker date="1534074976614" expanded="true" signature="3642:3750" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="3759:3901" ph="/// 获取多个Key ... " />
-            <marker date="1534074976614" expanded="true" signature="3961:4128" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="4137:4312" ph="/// 获取一个key的对象 ... " />
-            <marker date="1534074976614" expanded="true" signature="4354:4477" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="4486:4662" ph="/// 为数字增长val ... " />
-            <marker date="1534074976614" expanded="true" signature="4728:4847" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="4856:5032" ph="/// 为数字减少val ... " />
-            <marker date="1534074976614" expanded="true" signature="5098:5217" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="5258:8809" ph="异步方法" />
-            <marker date="1534074976614" expanded="true" signature="5279:5512" ph="/// 保存单个key value ... " />
-            <marker date="1534074976614" expanded="true" signature="5624:5758" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="5767:5909" ph="/// 保存多个key value ... " />
-            <marker date="1534074976614" expanded="true" signature="6008:6295" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="6304:6556" ph="/// 保存一个对象 ... " />
-            <marker date="1534074976614" expanded="true" signature="6664:6841" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="6850:6988" ph="/// 获取单个key的值 ... " />
-            <marker date="1534074976614" expanded="true" signature="7049:7168" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="7178:7320" ph="/// 获取多个Key ... " />
-            <marker date="1534074976614" expanded="true" signature="7397:7575" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="7584:7759" ph="/// 获取一个key的对象 ... " />
-            <marker date="1534074976614" expanded="true" signature="7818:7988" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="7997:8173" ph="/// 为数字增长val ... " />
-            <marker date="1534074976614" expanded="true" signature="8256:8386" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="8396:8572" ph="/// 为数字减少val ... " />
-            <marker date="1534074976614" expanded="true" signature="8655:8785" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="8853:14219" ph="List" />
-            <marker date="1534074976614" expanded="false" signature="8875:11509" ph="同步方法" />
-            <marker date="1534074976614" expanded="true" signature="8903:9051" ph="/// 移除指定ListId的内部List的值 ... " />
-            <marker date="1534074976614" expanded="true" signature="9106:9228" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="9237:9369" ph="/// 获取指定key的List ... " />
-            <marker date="1534074976614" expanded="true" signature="9417:9635" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="9498:9623" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="9644:9775" ph="/// 入队 ... " />
-            <marker date="1534074976614" expanded="true" signature="9833:9958" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="9967:10134" ph="/// 出队 ... " />
-            <marker date="1534074976614" expanded="true" signature="10179:10392" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="10257:10380" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="10401:10577" ph="/// 入栈 ... " />
-            <marker date="1534074976614" expanded="true" signature="10634:10758" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="10767:10934" ph="/// 出栈 ... " />
-            <marker date="1534074976614" expanded="true" signature="10978:11190" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="11056:11178" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="11199:11327" ph="/// 获取集合中的数量 ... " />
-            <marker date="1534074976614" expanded="true" signature="11370:11485" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="11518:14195" ph="异步方法" />
-            <marker date="1534074976614" expanded="true" signature="11539:11687" ph="/// 移除指定ListId的内部List的值 ... " />
-            <marker date="1534074976614" expanded="true" signature="11759:11899" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="11908:12040" ph="/// 获取指定key的List ... " />
-            <marker date="1534074976614" expanded="true" signature="12105:12278" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="12287:12418" ph="/// 入队 ... " />
-            <marker date="1534074976614" expanded="true" signature="12493:12636" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="12645:12812" ph="/// 出队 ... " />
-            <marker date="1534074976614" expanded="true" signature="12874:13042" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="13051:13227" ph="/// 入栈 ... " />
-            <marker date="1534074976614" expanded="true" signature="13301:13443" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="13453:13620" ph="/// 出栈 ... " />
-            <marker date="1534074976614" expanded="true" signature="13681:13848" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="13857:13985" ph="/// 获取集合中的数量 ... " />
-            <marker date="1534074976614" expanded="true" signature="14045:14171" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="14237:21599" ph="Hash" />
-            <marker date="1534074976614" expanded="false" signature="14259:17856" ph="同步方法" />
-            <marker date="1534074976614" expanded="true" signature="14280:14456" ph="/// 判断某个数据是否已经被缓存 ... " />
-            <marker date="1534074976614" expanded="true" signature="14515:14633" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="14642:14897" ph="/// 存储数据到hash表 ... " />
-            <marker date="1534074976614" expanded="true" signature="14961:15180" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="15039:15168" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="15189:15362" ph="/// 移除hash中的某值 ... " />
-            <marker date="1534074976614" expanded="true" signature="15421:15539" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="15548:15723" ph="/// 移除hash中的多个值 ... " />
-            <marker date="1534074976614" expanded="true" signature="15793:15999" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="16008:16226" ph="/// 从hash表获取数据 ... " />
-            <marker date="1534074976614" expanded="true" signature="16282:16502" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="16360:16490" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="16511:16730" ph="/// 为数字增长val ... " />
-            <marker date="1534074976614" expanded="true" signature="16810:16936" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="16945:17164" ph="/// 为数字减少val ... " />
-            <marker date="1534074976614" expanded="true" signature="17244:17370" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="17379:17564" ph="/// 获取hashkey所有Redis key ... " />
-            <marker date="1534074976614" expanded="true" signature="17611:17831" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="17689:17819" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="17866:21574" ph="异步方法" />
-            <marker date="1534074976614" expanded="true" signature="17887:18063" ph="/// 判断某个数据是否已经被缓存 ... " />
-            <marker date="1534074976614" expanded="true" signature="18139:18268" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="18277:18532" ph="/// 存储数据到hash表 ... " />
-            <marker date="1534074976614" expanded="true" signature="18613:18843" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="18697:18831" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="18852:19025" ph="/// 移除hash中的某值 ... " />
-            <marker date="1534074976614" expanded="true" signature="19101:19230" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="19239:19414" ph="/// 移除hash中的多个值 ... " />
-            <marker date="1534074976614" expanded="true" signature="19501:19718" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="19727:19945" ph="/// 从hash表获取数据 ... " />
-            <marker date="1534074976614" expanded="true" signature="20017:20192" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="20201:20420" ph="/// 为数字增长val ... " />
-            <marker date="1534074976614" expanded="true" signature="20517:20654" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="20663:20882" ph="/// 为数字减少val ... " />
-            <marker date="1534074976614" expanded="true" signature="20979:21116" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="21125:21310" ph="/// 获取hashkey所有Redis key ... " />
-            <marker date="1534074976614" expanded="true" signature="21374:21549" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="21608:24746" ph="SortedSet 有序集合" />
-            <marker date="1534074976614" expanded="false" signature="21640:23143" ph="同步方法" />
-            <marker date="1534074976614" expanded="true" signature="21662:21834" ph="/// 添加 ... " />
-            <marker date="1534074976614" expanded="true" signature="21905:22052" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="22061:22192" ph="/// 删除 ... " />
-            <marker date="1534074976614" expanded="true" signature="22252:22392" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="22401:22525" ph="/// 获取全部 ... " />
-            <marker date="1534074976614" expanded="true" signature="22584:22813" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="22665:22801" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="22822:22950" ph="/// 获取集合中的数量 ... " />
-            <marker date="1534074976614" expanded="true" signature="22998:23118" ph="{...}" />
-            <marker date="1534074976614" expanded="false" signature="23153:24711" ph="异步方法" />
-            <marker date="1534074976614" expanded="true" signature="23174:23346" ph="/// 添加 ... " />
-            <marker date="1534074976614" expanded="true" signature="23434:23592" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="23601:23732" ph="/// 删除 ... " />
-            <marker date="1534074976614" expanded="true" signature="23809:23960" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="23969:24093" ph="/// 获取全部 ... " />
-            <marker date="1534074976614" expanded="true" signature="24169:24353" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="24362:24490" ph="/// 获取集合中的数量 ... " />
-            <marker date="1534074976614" expanded="true" signature="24555:24686" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="24755:25356" ph="其他" />
-            <marker date="1534074976614" expanded="true" signature="24814:24888" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="24928:24993" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="25047:25116" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="25126:25224" ph="/// 设置前缀 ... " />
-            <marker date="1534074976614" expanded="true" signature="25278:25333" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/User/_Edit.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-start-column="56" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ambiel.AppService/DepartmentApp/Dtos/DepartmentDto.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/Shared/Components/Navigation/Default.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1380,24 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="65" column="92" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
-          <folding>
-            <marker date="1531837762312" expanded="false" signature="6:743" ph="..." />
-            <marker date="1531837762312" expanded="true" signature="793:3648" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="966:1457" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="1634:2713" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="2901:3642" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="2948:3025" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="3042:3126" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="3229:3333" ph="{...}" />
-            <marker date="1531837762312" expanded="true" signature="3420:3592" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ambiel.Utility/WebHandle/HttpLib.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -1405,12 +1265,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <marker date="1534081958052" expanded="false" signature="6:743" ph="..." />
+            <marker date="1534081958052" expanded="true" signature="766:3703" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="793:3701" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="966:1457" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="1634:2766" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="2419:2538" ph="/* services.RegisterAssembly(&quot;Core.BLL&quot;); ... */" />
+            <marker date="1534081958052" expanded="true" signature="2954:3695" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="3001:3078" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="3095:3179" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="3282:3386" ph="{...}" />
+            <marker date="1534081958052" expanded="true" signature="3473:3645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ambiel.RedisClient/RedisConnectionSingleton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
+        <state relative-caret-position="1068">
           <caret line="63" column="55" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="55" />
           <folding>
             <marker date="1531837921183" expanded="false" signature="6:113" ph="..." />
+            <marker date="1531837921183" expanded="true" signature="143:4800" ph="{...}" />
             <marker date="1531837921183" expanded="true" signature="194:4798" ph="{...}" />
             <marker date="1531837921183" expanded="true" signature="621:961" ph="{...}" />
             <marker date="1531837921183" expanded="true" signature="669:918" ph="{...}" />
@@ -1424,6 +1305,18 @@
             <marker date="1531837921183" expanded="true" signature="1879:1989" ph="{...}" />
             <marker date="1531837921183" expanded="true" signature="2136:2652" ph="{...}" />
             <marker date="1531837921183" expanded="false" signature="2662:4783" ph="事件" />
+            <marker date="1531837921183" expanded="true" signature="2682:2815" ph="/// 配置更改时 ... " />
+            <marker date="1531837921183" expanded="true" signature="2905:2996" ph="{...}" />
+            <marker date="1531837921183" expanded="true" signature="3006:3139" ph="/// 发生错误时 ... " />
+            <marker date="1531837921183" expanded="true" signature="3223:3304" ph="{...}" />
+            <marker date="1531837921183" expanded="true" signature="3314:3453" ph="/// 重新建立连接之前的错误 ... " />
+            <marker date="1531837921183" expanded="true" signature="3549:3637" ph="{...}" />
+            <marker date="1531837921183" expanded="true" signature="3647:3800" ph="/// 连接失败 ， 如果重新连接成功你将不会收到这个通知 ... " />
+            <marker date="1531837921183" expanded="true" signature="3894:4067" ph="{...}" />
+            <marker date="1531837921183" expanded="true" signature="4077:4209" ph="/// 更改集群 ... " />
+            <marker date="1531837921183" expanded="true" signature="4297:4427" ph="{...}" />
+            <marker date="1531837921183" expanded="true" signature="4437:4574" ph="/// redis类库错误 ... " />
+            <marker date="1531837921183" expanded="true" signature="4662:4760" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1441,6 +1334,19 @@
             <marker date="1531838184799" expanded="true" signature="1393:1513" ph="{...}" />
             <marker date="1531838184799" expanded="true" signature="1553:1657" ph="{...}" />
             <marker date="1531838184799" expanded="true" signature="1695:1826" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/JsonConfigurationHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1534081601998" expanded="true" signature="6:189" ph="..." />
+            <marker date="1534081601998" expanded="true" signature="219:980" ph="{...}" />
+            <marker date="1534081601998" expanded="true" signature="262:978" ph="{...}" />
+            <marker date="1534081601998" expanded="true" signature="375:972" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1463,7 +1369,7 @@
             <marker date="1534074976614" expanded="true" signature="1573:1685" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="1791:1890" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="1923:8835" ph="String" />
-            <marker date="1534074976614" expanded="true" signature="1946:5249" ph="同步方法" />
+            <marker date="1534074976614" expanded="false" signature="1946:5249" ph="同步方法" />
             <marker date="1534074976614" expanded="true" signature="1968:2201" ph="/// 保存单个key value ... " />
             <marker date="1534074976614" expanded="true" signature="2296:2419" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="2428:2570" ph="/// 保存多个key value ... " />
@@ -1497,7 +1403,7 @@
             <marker date="1534074976614" expanded="true" signature="8256:8386" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="8396:8572" ph="/// 为数字减少val ... " />
             <marker date="1534074976614" expanded="true" signature="8655:8785" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="8853:14219" ph="List" />
+            <marker date="1534074976614" expanded="false" signature="8853:14219" ph="List" />
             <marker date="1534074976614" expanded="false" signature="8875:11509" ph="同步方法" />
             <marker date="1534074976614" expanded="true" signature="8903:9051" ph="/// 移除指定ListId的内部List的值 ... " />
             <marker date="1534074976614" expanded="true" signature="9106:9228" ph="{...}" />
@@ -1590,12 +1496,60 @@
             <marker date="1534074976614" expanded="true" signature="24169:24353" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="24362:24490" ph="/// 获取集合中的数量 ... " />
             <marker date="1534074976614" expanded="true" signature="24555:24686" ph="{...}" />
-            <marker date="1534074976614" expanded="true" signature="24755:25356" ph="其他" />
+            <marker date="1534074976614" expanded="false" signature="24755:25356" ph="其他" />
             <marker date="1534074976614" expanded="true" signature="24814:24888" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="24928:24993" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="25047:25116" ph="{...}" />
             <marker date="1534074976614" expanded="true" signature="25126:25224" ph="/// 设置前缀 ... " />
             <marker date="1534074976614" expanded="true" signature="25278:25333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/AssemblyHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <marker date="1534081792239" expanded="true" signature="6:164" ph="..." />
+            <marker date="1534081792239" expanded="true" signature="194:2675" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="228:2673" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="243:378" ph="/// 获取项目程序集，排除所有的系统程序集(Microsoft.***、System.***等)、Nuget下载包 ... " />
+            <marker date="1534081792239" expanded="true" signature="435:1074" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="701:1039" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="735:924" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="958:1025" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="1138:1266" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="1314:1677" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="1422:1642" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="1543:1628" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="1760:2127" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="2019:2092" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="2212:2667" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="2275:2655" ph="{...}" />
+            <marker date="1534081792239" expanded="true" signature="2427:2611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/ServiceExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <marker date="1534081934243" expanded="true" signature="6:131" ph="..." />
+            <marker date="1534081934243" expanded="true" signature="164:3627" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="207:3625" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="222:423" ph="/// 用DI批量注入接口程序集中对应的实现类。 ... " />
+            <marker date="1534081934243" expanded="true" signature="544:1553" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="907:1036" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="1223:1515" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="1563:1857" ph="/// 用DI批量注入接口程序集中对应的实现类。 ... " />
+            <marker date="1534081934243" expanded="true" signature="2008:3619" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="2530:2659" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="2790:2919" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="3115:3580" ph="{...}" />
+            <marker date="1534081934243" expanded="true" signature="3458:3566" ph="{...}" />
           </folding>
         </state>
       </provider>
