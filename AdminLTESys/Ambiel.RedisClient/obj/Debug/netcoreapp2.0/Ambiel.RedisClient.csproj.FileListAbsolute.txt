@@ -1,0 +1,12 @@
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\bin\Debug\netcoreapp2.0\Ambiel.RedisClient.deps.json
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\bin\Debug\netcoreapp2.0\Ambiel.RedisClient.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\bin\Debug\netcoreapp2.0\Ambiel.RedisClient.pdb
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.csprojAssemblyReference.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.csproj.CoreCompileInputs.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.AssemblyInfoInputs.cache
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.AssemblyInfo.cs
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.csproj.CopyComplete
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.dll
+C:\netcoreforgithub\AdminLTESys\Ambiel.RedisClient\obj\Debug\netcoreapp2.0\Ambiel.RedisClient.pdb

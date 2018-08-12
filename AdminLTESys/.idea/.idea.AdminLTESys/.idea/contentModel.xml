@@ -204,7 +204,17 @@
       </e>
       <e p="Ambiel.RedisClient" t="IncludeRecursive">
         <e p="Ambiel.RedisClient.csproj" t="IncludeRecursive" />
-        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Ambiel.RedisClient.deps.json" t="Include" />
+              <e p="Ambiel.RedisClient.dll" t="Include" />
+              <e p="Ambiel.RedisClient.pdb" t="Include" />
+              <e p="Newtonsoft.Json.dll" t="Include" />
+              <e p="Newtonsoft.Json.xml" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Ambiel.RedisClient.csproj.nuget.cache" t="Include" />
           <e p="Ambiel.RedisClient.csproj.nuget.g.props" t="Include" />
@@ -213,7 +223,12 @@
             <e p="netcoreapp2.0" t="Include">
               <e p="Ambiel.RedisClient.AssemblyInfo.cs" t="Include" />
               <e p="Ambiel.RedisClient.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Ambiel.RedisClient.csproj.CopyComplete" t="Include" />
+              <e p="Ambiel.RedisClient.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Ambiel.RedisClient.csproj.FileListAbsolute.txt" t="Include" />
               <e p="Ambiel.RedisClient.csprojAssemblyReference.cache" t="Include" />
+              <e p="Ambiel.RedisClient.dll" t="Include" />
+              <e p="Ambiel.RedisClient.pdb" t="Include" />
             </e>
           </e>
           <e p="project.assets.json" t="Include" />
